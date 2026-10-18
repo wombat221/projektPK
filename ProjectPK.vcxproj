@@ -124,6 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModelARX.cpp" />
+    <ClCompile Include="ProstyUAR.cpp" />
+    <ClCompile Include="RegulatorOnOFF.cpp" />
+    <ClCompile Include="RegulatorPID.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ModelARX.h" />
