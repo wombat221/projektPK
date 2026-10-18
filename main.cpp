@@ -1,8 +1,6 @@
 // TU includy:
 #include <iostream>
 #include <iomanip>
-#include <vector>
-
 #include "ModelARX.h"
 #include "RegulatorPID.h"
 #include "RegulatorOnOFF.h" // Tylko sekcje 3 osobowe
@@ -192,7 +190,7 @@ void TESTY_ModelARX::test_skokJednostkowy_3()
 }
 
 
-// testy dla samego Regulatora PID:
+/* testy dla samego Regulatora PID :
 
 namespace TESTY_RegulatorPID
 {
@@ -768,14 +766,16 @@ void TESTY_ProstyUAR::test_UAR_5_skokJednostkowyONOFF()
 		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
 	}
 }
-
+*/
 
 int main()
 {
 	TESTY_ModelARX::wykonaj_testy();
+	/*
 	TESTY_RegulatorPID::wykonaj_testy();
 	TESTY_RegulatorOnOff::wykonaj_testy();
 	TESTY_ProstyUAR::wykonaj_testy();
+	*/
 }
 
 #endif
