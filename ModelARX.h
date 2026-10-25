@@ -6,7 +6,7 @@
 class ModelARX {
 private:
 	bool m_ograniczenieU = true;
-	double m_uMin = -10.0;
+	double m_wejscieMin = -10.0;
 	double m_uMax = 10.0;
 
 	double m_yMin = -10.0;
@@ -22,10 +22,10 @@ private:
 	std::deque<double> m_buforWejscia;
 	std::deque<double> m_buforWyjscia;
 
-	std::mt19937 m_generator{ std::random_device{}() };
+	std::mt19937 m_generator;
 	
 
-	double LosoweZaklocenie();
+	double Zaklocenie();
 public:
     ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie, double odchylenie);
 
@@ -37,6 +37,8 @@ public:
 
 	void setOgraniczenieU(bool OgraniczenieU) { m_ograniczenieU = OgraniczenieU; };
 	void setOgraniczeniey(bool OgraniczenieY) { m_ograniczenieY = OgraniczenieY; };
+
+	double getOstatnieWyjscie() { return m_buforWyjscia[0]; };
 
 
 	double symuluj(double sygWe);

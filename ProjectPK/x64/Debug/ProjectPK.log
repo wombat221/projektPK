@@ -1,4 +1,4 @@
 ﻿  ModelARX.cpp
   main.cpp
   Generowanie kodu...
-LINK : fatal error LNK1168: nie można otworzyć pliku C:\Users\kapi8\source\repos\projektPK\x64\Debug\ProjectPK.exe do zapisu
+  ProjectPK.vcxproj -> C:\Users\kapi8\source\repos\projektPK\x64\Debug\ProjectPK.exe

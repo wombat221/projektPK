@@ -10,8 +10,9 @@ ModelARX::ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie,
 
 
 
-double ModelARX::LosoweZaklocenie() {
-    return 2.0;
+double ModelARX::Zaklocenie() {
+    std::uniform_real_distribution<double> uniDistReal(0.0, m_odchylenie);
+    return uniDistReal(m_generator);
 };
 
 
@@ -57,6 +58,7 @@ double ModelARX::symuluj(double SygWe) {
             wynik = m_yMax;
         }
     }
+    wynik += Zaklocenie();
 
   
     m_buforWyjscia.push_front(wynik);
