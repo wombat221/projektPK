@@ -126,13 +126,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ModelARX.cpp" />
     <ClCompile Include="ProstyUAR.cpp" />
-    <ClCompile Include="RegulatorOnOFF.cpp" />
     <ClCompile Include="RegulatorPID.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ModelARX.h" />
     <ClInclude Include="ProstyUAR.h" />
-    <ClInclude Include="RegulatorOnOFF.h" />
     <ClInclude Include="RegulatorPID.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

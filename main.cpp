@@ -7,7 +7,7 @@
 #include "ProstyUAR.h"
 
 
-#define DEBUG  // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
+#define DEBUG // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
 
 #ifdef DEBUG
 
@@ -786,7 +786,7 @@ int main()
 
 int main()
 {
-	//Twój program
+
 }
 
 #endif

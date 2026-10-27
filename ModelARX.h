@@ -6,7 +6,7 @@
 class ModelARX {
 private:
 	bool m_ograniczenieU = true;
-	double m_wejscieMin = -10.0;
+	double m_uMin = -10.0;
 	double m_uMax = 10.0;
 
 	double m_yMin = -10.0;
@@ -16,7 +16,7 @@ private:
 	std::vector<double> m_AWspolczynniki = { -0.4 };
 	std::vector<double> m_BWspolczynniki = { 0.6 };
 
-	int m_opoznienie;
+	int m_opoznienie = 0.0;
 	double m_odchylenie = 0.0;
 
 	std::deque<double> m_buforWejscia;
@@ -27,7 +27,8 @@ private:
 
 	double Zaklocenie();
 public:
-    ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie, double odchylenie);
+	ModelARX() {};
+	ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie, double odchylenie);
 
 	void setUmin(double uMin);
 	void setUmax(double uMax) { m_uMax = uMax; };

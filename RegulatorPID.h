@@ -2,5 +2,7 @@
 
 
 class RegulatorPID {
-
+private:
+public:
+	RegulatorPID() {};
 };
