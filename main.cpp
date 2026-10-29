@@ -3,7 +3,6 @@
 #include <iomanip>
 #include "ModelARX.h"
 #include "RegulatorPID.h"
-#include "RegulatorOnOFF.h" // Tylko sekcje 3 osobowe
 #include "ProstyUAR.h"
 
 

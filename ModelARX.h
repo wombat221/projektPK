@@ -16,7 +16,7 @@ private:
 	std::vector<double> m_AWspolczynniki = { -0.4 };
 	std::vector<double> m_BWspolczynniki = { 0.6 };
 
-	int m_opoznienie = 0.0;
+	int m_opoznienie = 1;
 	double m_odchylenie = 0.0;
 
 	std::deque<double> m_buforWejscia;
@@ -38,6 +38,7 @@ public:
 
 	void setOgraniczenieU(bool OgraniczenieU) { m_ograniczenieU = OgraniczenieU; };
 	void setOgraniczeniey(bool OgraniczenieY) { m_ograniczenieY = OgraniczenieY; };
+
 
 	double getOstatnieWyjscie() { return m_buforWyjscia[0]; };
 
