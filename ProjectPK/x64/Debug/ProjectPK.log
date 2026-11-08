@@ -1,4 +1,6 @@
-﻿  main.cpp
+﻿  Generator.cpp
+  main.cpp
+C:\Users\kapi8\source\repos\projektPK\Generator.cpp(2,10): warning C4067: nieoczekiwane tokeny występujące po dyrektywie preprocesora - oczekiwano nowego wiersza
   ModelARX.cpp
   ProstyUAR.cpp
   RegulatorPID.cpp

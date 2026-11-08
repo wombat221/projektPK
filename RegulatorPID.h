@@ -4,5 +4,5 @@
 class RegulatorPID {
 private:
 public:
-	RegulatorPID() {};
+	RegulatorPID() = default;
 };
