@@ -1,8 +1,8 @@
 #pragma once
 
-// Sposób naliczenia ca³ki
+// Sposï¿½b naliczenia caï¿½ki
 enum class TypCalkowania {
-	PrzedSuma, // Domyœlny
+	PrzedSuma, // Domyï¿½lny
 	PodSuma
 };
 
@@ -30,7 +30,7 @@ public:
 	// Konstruktor
 	RegulatorPID(double k = 0.5, double Ti = 5.0, double d = 0.0);
 
-	// Funkcje resetuj¹ce
+	// Funkcje resetujï¿½ce
 	void resetPamiecCalki();
 	void reset();
 
@@ -46,12 +46,12 @@ public:
 	double getstalaRoznD() const { return m_stalaRoznD; };
 	TypCalkowania getTypCalkowania() const { return m_typCalkowania; };
 
-	// Odczyt wartoœci dla wykresow
+	// Odczyt wartoï¿½ci dla wykresow
 	double getProporcjonalnaP() const { return m_proporcjonalnaP; };
 	double getCalkujacaI() const { return m_calkujacaI; };
 	double getRozniczkujacaD() const { return m_rozniczkujacaD; };
 	double getSumaSkladowychU() const { return m_sumaSkladowychU; };
 
-	// Funkcja symuluj¹ca
+	// Funkcja symulujï¿½ca
 	double symuluj(double sygWe);
 };

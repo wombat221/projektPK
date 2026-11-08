@@ -15,3 +15,7 @@ Debug/
 Release/
 *.user
 *.suo
+.vs/ProjectPK
+ProjectPK/x64/Debug
+x64/Debug
+
