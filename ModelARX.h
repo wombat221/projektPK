@@ -44,8 +44,6 @@ public:
 
 
 	double symuluj(double sygWe);
-
-
 };
 
 

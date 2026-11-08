@@ -3,5 +3,10 @@
 
 
 class Generator {
-	
+private:
+
+
+
+public:
+
 };
