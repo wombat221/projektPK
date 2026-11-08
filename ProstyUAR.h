@@ -12,8 +12,3 @@ public:
 	
 	double symuluj(double sygWe);
 };
-
-
-class ssij {
-
-};
