@@ -81,4 +81,6 @@ double RegulatorPID::symuluj(double sygWe)
 	m_poprzedniUchyb = sygWe;
 
 	m_sumaSkladowychU = m_proporcjonalnaP + m_calkujacaI + m_rozniczkujacaD;
+
+	return m_sumaSkladowychU;
 };

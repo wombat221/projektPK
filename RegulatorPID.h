@@ -1,8 +1,9 @@
 #pragma once
+#include <cstdint>
 
-// Spos�b naliczenia ca�ki
+// Sposob naliczenia calki
 enum class TypCalkowania {
-	PrzedSuma, // Domy�lny
+	PrzedSuma, // Domyslny
 	PodSuma
 };
 
@@ -30,7 +31,7 @@ public:
 	// Konstruktor
 	RegulatorPID(double k = 0.5, double Ti = 5.0, double d = 0.0);
 
-	// Funkcje resetuj�ce
+	// Funkcje resetujuce
 	void resetPamiecCalki();
 	void reset();
 
@@ -46,12 +47,12 @@ public:
 	double getstalaRoznD() const { return m_stalaRoznD; };
 	TypCalkowania getTypCalkowania() const { return m_typCalkowania; };
 
-	// Odczyt warto�ci dla wykresow
+	// Odczyt wartosci dla wykresow
 	double getProporcjonalnaP() const { return m_proporcjonalnaP; };
 	double getCalkujacaI() const { return m_calkujacaI; };
 	double getRozniczkujacaD() const { return m_rozniczkujacaD; };
 	double getSumaSkladowychU() const { return m_sumaSkladowychU; };
 
-	// Funkcja symuluj�ca
+	// Funkcja symulujaca
 	double symuluj(double sygWe);
 };

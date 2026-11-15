@@ -6,7 +6,7 @@
 #include "ProstyUAR.h"
 
 
-#define MAIN // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
+#define DEBUG // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
 
 #ifdef DEBUG
 
@@ -189,7 +189,7 @@ void TESTY_ModelARX::test_skokJednostkowy_3()
 }
 
 
-/* testy dla samego Regulatora PID :
+//testy dla samego Regulatora PID :
 
 namespace TESTY_RegulatorPID
 {
@@ -197,9 +197,9 @@ namespace TESTY_RegulatorPID
 	void test_P_brakPobudzenia();
 	void test_P_skokJednostkowy();
 	void test_PI_skokJednostkowy_1();
-	void test_PI_skokJednostkowy_2());
+	void test_PI_skokJednostkowy_2();
 	void test_PID_skokJednostkowy();
-	void test_PI_skokJednostkowy_3();
+	//void test_PI_skokJednostkowy_3();
 }
 
 void TESTY_RegulatorPID::wykonaj_testy()
@@ -207,9 +207,9 @@ void TESTY_RegulatorPID::wykonaj_testy()
 	test_P_brakPobudzenia();
 	test_P_skokJednostkowy();
 	test_PI_skokJednostkowy_1();
-	test_PI_skokJednostkowy_2());
-	test_PID_skokJednostkowy();
-	test_PI_skokJednostkowy_3();
+	test_PI_skokJednostkowy_2();
+  //test_PID_skokJednostkowy();
+  //test_PI_skokJednostkowy_3();
 }
 
 void TESTY_RegulatorPID::test_P_brakPobudzenia()
@@ -372,7 +372,7 @@ void TESTY_RegulatorPID::test_PID_skokJednostkowy()
 	}
 }
 
-void TESTY_RegulatorPID::test_PI_skokJednostkowy_3()
+/*void TESTY_RegulatorPID::test_PI_skokJednostkowy_3()
 {
 	//Sygnatura testu:
 	std::cerr << "RegPI (k = 0.5, TI = 10.0 -> 5.0 -> 10.0) -> test skoku jednostkowego nr 3: ";
@@ -417,115 +417,7 @@ void TESTY_RegulatorPID::test_PI_skokJednostkowy_3()
 	{
 		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
 	}
-}
-
-// testy dla samego Regulatora ON/OFF:
-
-namespace TESTY_RegulatorOnOff
-{
-	void wykonaj_testy();
-	void test_brakPobudzenia();
-	void test_skokPowyzHist();
-	void test_skokPonizHist();
-}
-
-void TESTY_RegulatorOnOff::wykonaj_testy()
-{
-	test_brakPobudzenia();
-	test_skokPowyzHist();
-	test_skokPonizHist();
-}
-
-void TESTY_RegulatorOnOff::test_brakPobudzenia()
-{
-	//Sygnatura testu:
-	std::cerr << "RegOnOff (1.0,0.1) -> test zerowego pobudzenia: ";
-	try
-	{
-		// Przygotowanie danych:
-		RegulatorOnOff instancjaTestowa(1.0, 0.1);
-		constexpr size_t LICZ_ITER = 30;
-		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu (tu same 0)
-		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy (tu same 0)
-		std::vector<double> faktSygWy(LICZ_ITER);  // faktyczna sekwencja wy
-
-		// Symulacja modelu:
-
-		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
-
-		// Walidacja poprawnoœci i raport:
-		myAssert(spodzSygWy, faktSygWy);
-	}
-	catch (...)
-	{
-		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
-	}
-}
-
-void TESTY_RegulatorOnOff::test_skokPowyzHist()
-{
-	//Sygnatura testu:
-	std::cerr << "RegOnOff (1.0,0.1) -> test powyzej Hist: ";
-	try
-	{
-		// Przygotowanie danych:
-		RegulatorOnOff instancjaTestowa(1.0, 0.1);
-		constexpr size_t LICZ_ITER = 30;
-		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu (tu same 0)
-		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy (tu same 0)
-		std::vector<double> faktSygWy(LICZ_ITER);  // faktyczna sekwencja wy
-
-		// Symulacja skoku jednostkowego w chwili 1. (!!i - daje 1 dla i != 0);
-		for (int i = 0; i < LICZ_ITER; i++)
-			sygWe[i] = !!i;
-		spodzSygWy = { 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-
-		// Symulacja modelu:
-		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
-
-		// Walidacja poprawnoœci i raport:
-		myAssert(spodzSygWy, faktSygWy);
-	}
-	catch (...)
-	{
-		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
-	}
-}
-
-void TESTY_RegulatorOnOff::test_skokPonizHist()
-{
-	//Sygnatura testu:
-	std::cerr << "RegOnOff (1.0,1.1) -> test ponizej Hist: ";
-	try
-	{
-		// Przygotowanie danych:
-		RegulatorOnOff instancjaTestowa(1.0, 1.1);
-		constexpr size_t LICZ_ITER = 30;
-		std::vector<double> sygWe(LICZ_ITER);      // pobudzenie modelu (tu same 0)
-		std::vector<double> spodzSygWy(LICZ_ITER); // spodziewana sekwencja wy (tu same 0)
-		std::vector<double> faktSygWy(LICZ_ITER);  // faktyczna sekwencja wy
-
-		// Symulacja skoku jednostkowego w chwili 1. (!!i - daje 1 dla i != 0);
-		for (int i = 0; i < LICZ_ITER; i++)
-			sygWe[i] = !!i;
-		spodzSygWy = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-
-		// Symulacja modelu:
-		for (int i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
-
-		// Walidacja poprawnoœci i raport:
-		myAssert(spodzSygWy, faktSygWy);
-	}
-	catch (...)
-	{
-		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
-	}
-}
-
-
+} */
 // testy dla pelnego UAR:
 
 namespace TESTY_ProstyUAR
@@ -535,8 +427,8 @@ namespace TESTY_ProstyUAR
 	void test_UAR_1_skokJednostkowyPID();
 	void test_UAR_2_skokJednostkowyPID();
 	void test_UAR_3_skokJednostkowyPID();
-	void test_UAR_4_skokJednostkowyONOFF();
-	void test_UAR_5_skokJednostkowyONOFF();
+	//void test_UAR_4_skokJednostkowyONOFF();
+	//void test_UAR_5_skokJednostkowyONOFF();
 }
 
 void TESTY_ProstyUAR::wykonaj_testy()
@@ -545,8 +437,8 @@ void TESTY_ProstyUAR::wykonaj_testy()
 	test_UAR_1_skokJednostkowyPID();
 	test_UAR_2_skokJednostkowyPID();
 	test_UAR_3_skokJednostkowyPID();
-	test_UAR_4_skokJednostkowyONOFF();
-	test_UAR_5_skokJednostkowyONOFF();
+	//test_UAR_4_skokJednostkowyONOFF();
+	//test_UAR_5_skokJednostkowyONOFF();
 }
 
 void TESTY_ProstyUAR::test_UAR_1_brakPobudzenia()
@@ -689,7 +581,7 @@ void TESTY_ProstyUAR::test_UAR_3_skokJednostkowyPID()
 		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
 	}
 }
-
+/*
 void TESTY_ProstyUAR::test_UAR_4_skokJednostkowyONOFF()
 {
 	//Sygnatura testu:
@@ -770,11 +662,11 @@ void TESTY_ProstyUAR::test_UAR_5_skokJednostkowyONOFF()
 int main()
 {
 	TESTY_ModelARX::wykonaj_testy();
-	/*
+	
 	TESTY_RegulatorPID::wykonaj_testy();
-	TESTY_RegulatorOnOff::wykonaj_testy();
-	TESTY_ProstyUAR::wykonaj_testy();
-	*/
+	//TESTY_RegulatorOnOff::wykonaj_testy();
+	//TESTY_ProstyUAR::wykonaj_testy();
+	
 }
 
 #endif
