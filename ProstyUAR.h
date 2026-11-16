@@ -1,6 +1,7 @@
 #pragma once
 #include "ModelARX.h"
 #include "RegulatorPID.h"
+#include <memory>
 
 class ProstyUAR {
 private:	

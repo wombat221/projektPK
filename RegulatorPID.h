@@ -29,7 +29,8 @@ private:
 
 public:
 	// Konstruktor
-	RegulatorPID(double k = 0.5, double Ti = 5.0, double d = 0.0);
+	RegulatorPID() = default;
+	RegulatorPID(double k, double Ti = 0.0, double d = 0.0);
 
 	// Funkcje resetujuce
 	void resetPamiecCalki();

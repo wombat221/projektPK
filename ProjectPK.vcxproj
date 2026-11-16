@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Generator.cpp" />
+    <ClCompile Include="KonfiguracjaJSON.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ModelARX.cpp" />
     <ClCompile Include="ProstyUAR.cpp" />
@@ -131,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Generator.h" />
+    <ClInclude Include="KonfiguracjaJSON.h" />
     <ClInclude Include="ModelARX.h" />
     <ClInclude Include="ProstyUAR.h" />
     <ClInclude Include="RegulatorPID.h" />

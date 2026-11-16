@@ -77,7 +77,7 @@ double RegulatorPID::symuluj(double sygWe)
 		}
 	}
 
-	m_rozniczkujacaD = m_stalaCalkTi * (sygWe - m_poprzedniUchyb);
+	m_rozniczkujacaD = m_stalaRoznD * (sygWe - m_poprzedniUchyb);
 	m_poprzedniUchyb = sygWe;
 
 	m_sumaSkladowychU = m_proporcjonalnaP + m_calkujacaI + m_rozniczkujacaD;
