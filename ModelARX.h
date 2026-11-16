@@ -19,8 +19,8 @@ private:
 	int m_opoznienie = 1;
 	double m_odchylenie = 0.0;
 
-	std::deque<double> m_buforWejscia;
-	std::deque<double> m_buforWyjscia;
+	std::deque<double> m_buforWejscia = {0.0};
+	std::deque<double> m_buforWyjscia = {0.0};
 
 	std::mt19937 m_generator;
 	

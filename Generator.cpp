@@ -1,28 +1,25 @@
-
-#include "Generator.h";
+#include "Generator.h"
 #include <cmath>
 #include <iostream>
-constexpr double Pi = 3.14159265359;
+constexpr double M_Pi = 3.14159265359;
 
-
-
-Generator::Generator(double amplituda, double wypelnienie, double okres, double stala, sygnal sygnal) {
-	
-}
-
-double Generator::generujSygnal(double SygWe){
+double GeneratorProstokatny::generujSygnal(double SygWe) {
 	double wynik = 0.0;
-	if (m_sygnal == sygnal::prostokatny) {
-		if (m_krok % m_okres < m_wypelnienie * m_okres) {
-			wynik =  m_amplituda + m_skladowaStala;
-		}
-		else {
-			wynik =  m_skladowaStala;
-		}
+	m_krok = m_krok % m_okres;
+	if (m_krok < m_wypelnienie * m_okres) {
+		wynik = m_amplituda + m_skladowaStala;
 	}
 	else {
-		wynik = m_amplituda * std::sin(m_krok % m_okres / static_cast<double>(m_okres) * Pi) + m_skladowaStala;
+		wynik = m_skladowaStala;
 	}
+	m_krok++;
+	return wynik;
+}
+
+double GeneratorSinusoidalny::generujSygnal(double SygWe) {
+	double wynik = 0.0;
+	m_krok = m_krok % m_okres;
+	wynik = m_amplituda * std::sin(m_krok / static_cast<double>(m_okres) * M_Pi) + m_skladowaStala;
 	m_krok++;
 	return wynik;
 }

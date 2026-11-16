@@ -2,21 +2,28 @@
 
 
 
-enum class sygnal : uint8_t{
-	sinusoida,prostokatny
-};
 
 
 class Generator {
-private:
+protected:
 	double m_amplituda = 1.0;
-	double m_wypelnienie = 0.5;
 	int m_okres = 10; 
 	double m_skladowaStala = 0.0;
 	int m_krok = 0;
-	sygnal m_sygnal = sygnal::prostokatny;
 public:
-	Generator(double amplituda, double wypelnienie, double okres, double stala, sygnal sygnal);
+	virtual double generujSygnal(double SygWe) = 0;
+};
 
-	double generujSygnal(double SygWe);
+class GeneratorProstokatny : public Generator {
+private:
+	double m_wypelnienie = 0.5;
+public:
+	double generujSygnal(double SygWe) override ;
+
+};
+
+
+class GeneratorSinusoidalny : public Generator {
+public:
+	double generujSygnal(double SygWe) override;
 };

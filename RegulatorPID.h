@@ -2,14 +2,15 @@
 #include <cstdint>
 
 // Sposob naliczenia calki
-enum class TypCalkowania {
-	PrzedSuma, // Domyslny
-	PodSuma
-};
+
 
 class RegulatorPID {
+public:
+	enum class TypCalkowania {
+		PrzedSuma, // Domyslny
+		PodSuma
+	};
 private:
-
 	// Nastawa regulatora
 	double m_wzmocnienieK = 0.5;
 	double m_stalaCalkTi = 5.0;
