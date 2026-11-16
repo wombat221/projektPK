@@ -21,7 +21,7 @@ double Generator::generujSygnal(double SygWe){
 		}
 	}
 	else {
-		wynik = m_amplituda * std::sin(m_krok % static_cast<int>(m_okres) / m_okres * Pi) + m_skladowaStala;
+		wynik = m_amplituda * std::sin(m_krok % m_okres / static_cast<double>(m_okres) * Pi) + m_skladowaStala;
 	}
 	m_krok++;
 	return wynik;
