@@ -2,7 +2,7 @@
 
 
 
-enum class sygnal{
+enum class sygnal : uint8_t{
 	sinusoida,prostokatny
 };
 

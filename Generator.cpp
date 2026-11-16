@@ -13,7 +13,7 @@ Generator::Generator(double amplituda, double wypelnienie, double okres, double 
 double Generator::generujSygnal(double SygWe){
 	double wynik = 0.0;
 	if (m_sygnal == sygnal::prostokatny) {
-		if (m_krok % static_cast<int>(m_okres) < m_wypelnienie * m_okres) {
+		if (m_krok % m_okres < m_wypelnienie * m_okres) {
 			wynik =  m_amplituda + m_skladowaStala;
 		}
 		else {
