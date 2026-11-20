@@ -31,7 +31,7 @@ class GeneratorProstokatny : public Generator {
 private:
 	double m_wypelnienie = 0.5;
 public:
-	GeneratorProstokatny();
+	GeneratorProstokatny() {};
 	GeneratorProstokatny(double amplituda, int okres, double Stala, double wypelnienie,int krok = 0) : Generator(amplituda, okres, Stala,krok) {
 		setWypelnienie(wypelnienie);
 	};
@@ -40,7 +40,7 @@ public:
 	
 	double generujSygnal(double SygWe) override;
 
-	GeneratorSinusoidalny konwersjaNaSinusoidalny();
+	static GeneratorSinusoidalny konwersjaNaSinusoidalny();
 	
 };
 
@@ -55,7 +55,7 @@ public:
 
 	double generujSygnal(double SygWe) override;
 
-	GeneratorProstokatny konwersjaNaProstokatny(double wypelnienie);
+	static GeneratorProstokatny konwersjaNaProstokatny(double wypelnienie);
 
 };
 
