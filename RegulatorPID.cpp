@@ -1,6 +1,5 @@
 #include "RegulatorPID.h"
 
-// Konstruktor
 RegulatorPID::RegulatorPID(double k, double Ti, double d)
 	: m_sumaUchyb(0.0), m_poprzedniUchyb(0.0), m_proporcjonalnaP(0.0), m_calkujacaI(0.0), 
 	m_rozniczkujacaD(0.0), m_sumaSkladowychU(0.0), m_typCalkowania(TypCalkowania::PrzedSuma) 
@@ -10,7 +9,6 @@ RegulatorPID::RegulatorPID(double k, double Ti, double d)
 	setstalaRoznD(d);
 }
 
-// Funkcje resetuj¹ce
 void RegulatorPID::resetPamiecCalki()
 {
 	m_sumaUchyb = 0.0;
@@ -26,7 +24,6 @@ void RegulatorPID::reset()
 	m_sumaSkladowychU = 0.0;
 };
 
-// Setery
 void RegulatorPID::setwzmocnienieK(double k)
 {
 	m_wzmocnienieK = k;
@@ -57,7 +54,6 @@ void RegulatorPID::setTypCalkowania(TypCalkowania typ)
 	m_typCalkowania = typ;
 };
 
-// Funkcja symuluj¹ca
 double RegulatorPID::symuluj(double sygWe) 
 {
 	m_proporcjonalnaP = m_wzmocnienieK * sygWe;
