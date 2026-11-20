@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Generator.h" />
+    <ClInclude Include="json.hpp" />
     <ClInclude Include="KonfiguracjaJSON.h" />
     <ClInclude Include="ModelARX.h" />
     <ClInclude Include="ProstyUAR.h" />
