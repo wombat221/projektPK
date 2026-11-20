@@ -4,6 +4,7 @@
 #include "ModelARX.h"
 #include "RegulatorPID.h"
 #include "ProstyUAR.h"
+#include "Generator.h";
 
 
 #define MAIN // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
@@ -597,11 +598,7 @@ int main()
 
 int main()
 {
-	int a = 2;
-	//int b = ++a + 2;
-	int c = ++a + 2;
-	std::cout  << c;
-
+	
 }
 
 #endif
