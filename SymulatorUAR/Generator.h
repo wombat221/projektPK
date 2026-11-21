@@ -8,12 +8,12 @@ protected:
 	int m_okres = 10; 
 	double m_skladowaStala = 0.0;
 	int m_krok = 0;
-	Generator(double amplituda, int okres, double stala,int krok) {
+    Generator(double amplituda, int okres, double stala) {
 		setAmplituda(amplituda);
 		setOkres(okres);
 		setSkladowa(stala);
 	};
-	
+
 	
 	Generator() = default;
 	Generator(const Generator& generator) = delete;
@@ -43,7 +43,7 @@ private:
 	double m_wypelnienie = 0.5;
 public:
 	GeneratorProstokatny() = default;
-	GeneratorProstokatny(double amplituda, int okres, double Stala, double wypelnienie,int krok = 0) : Generator(amplituda, okres, Stala,krok) {
+    GeneratorProstokatny(double amplituda, int okres, double Stala, double wypelnienie) : Generator(amplituda, okres, Stala) {
 		setWypelnienie(wypelnienie);
 	};
 
@@ -62,7 +62,7 @@ private:
 public:
 	GeneratorSinusoidalny() = default;
 
-	GeneratorSinusoidalny(double amplituda, int okres, double Stala, int krok = 0) : Generator(amplituda, okres, Stala,krok) {};
+    GeneratorSinusoidalny(double amplituda, int okres, double Stala) : Generator(amplituda, okres, Stala) {};
 	void setFaza(double faza) { m_faza = faza; };
 
 

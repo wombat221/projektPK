@@ -23,7 +23,7 @@ wynikiSymulacji ProstyUAR::symulujZGeneratorem() {
 		wynik.wyjscie = m_modelARX.symuluj(wyjscieRegulatora);
 		return wynik;
 	}else
-		throw std::invalid_argument("Pusty Wskaønik generatora");
+		throw std::invalid_argument("Pusty Wska≈ºnik generatora");
 }
 
 Generator& ProstyUAR::getGenerator() {

@@ -1,6 +1,6 @@
 #include "Generator.h"
 #include <cmath>
-#include <iostream>
+
 constexpr double Pi = 3.14159265359;
 
 
