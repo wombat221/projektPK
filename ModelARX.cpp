@@ -12,16 +12,21 @@ ModelARX::ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie,
 
 double ModelARX::Zaklocenie() {
     std::uniform_real_distribution<double> uniDistReal(0.0, m_odchylenie);
-    return uniDistReal(m_generator);
-};
+    return uniDistReal(m_szum);
+}
 
 
 void ModelARX::setUmin(double uMin) {
+    
     if (uMin > m_uMax)  {
         return;
     }
     m_uMin = uMin;
 };
+
+void ModelARX::setUmax(double uMax) {
+    m_uMax = uMax;
+}
 
 void ModelARX::setYmin(double yMin) {
     if (yMin > m_yMax) {
@@ -29,6 +34,10 @@ void ModelARX::setYmin(double yMin) {
     }
     m_uMin = yMin;
 };
+
+void ModelARX::setYmax(double yMax) {
+    m_yMax = yMax;
+}
 
 double ModelARX::symuluj(double SygWe) {
     if (m_ograniczenieU) {
