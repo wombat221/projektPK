@@ -5,7 +5,7 @@
 #include "RegulatorPID.h"
 #include "ProstyUAR.h"
 #include "Generator.h";
-#include "Wybor.h"
+
 
 #define MAIN // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
 

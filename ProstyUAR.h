@@ -6,18 +6,16 @@
 
 
 
-class ProstyUAR {
-public:
-	using GeneratorPtr = std::unique_ptr<Generator>;
 
+class ProstyUAR {
 private:	
 
 	ModelARX m_modelARX;
 	RegulatorPID m_regulatorPID;
 	GeneratorPtr m_generator;
 
-	bool czyJestWskaznik(GeneratorPtr& generator) {
-		return (generator != nullptr);
+	bool czyJestWskaznik() {
+		return (m_generator != nullptr);
 	}
 public:
 	ProstyUAR(ModelARX modelARX, RegulatorPID regulatorPID, GeneratorPtr generator = nullptr) :
@@ -26,13 +24,11 @@ public:
 		m_generator(std::move(generator)) {};
 	
 
-
-
-
-	
-	
-
 	void UstawGenerator(GeneratorPtr generator);
+	ModelARX& getModelARX() { return m_modelARX; };
+	RegulatorPID& getRegulator() { return m_regulatorPID; };
+	Generator& getGenerator();
+
 	double symuluj(double sygWe);
 	double symulujZGeneratorem();
 	

@@ -37,7 +37,7 @@ public:
 	int getOkres() const { return m_okres; };
 };
 
- 
+using GeneratorPtr = std::unique_ptr<Generator>;
 
 
 class GeneratorProstokatny : public Generator {
@@ -67,8 +67,6 @@ public:
 
 
 	double generujSygnal() override;
-
-	
 
 };
 
