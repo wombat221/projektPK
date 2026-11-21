@@ -34,6 +34,7 @@
       <Filter>Pliki zasobów</Filter>
     </ClCompile>
     <ClCompile Include="ZegarSymulacji.cpp">
+    <ClCompile Include="WartstwaUslugi.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
     <ClCompile Include="WartstwaUslugi.cpp">
