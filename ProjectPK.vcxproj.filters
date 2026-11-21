@@ -33,6 +33,7 @@
     <ClCompile Include="KonfiguracjaJSON.cpp">
       <Filter>Pliki zasobów</Filter>
     </ClCompile>
+    <ClCompile Include="ZegarSymulacji.cpp">
     <ClCompile Include="WartstwaUslugi.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClCompile>
@@ -57,6 +58,9 @@
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
     <ClInclude Include="json.hpp">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ZegarSymulacji.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
   </ItemGroup>
