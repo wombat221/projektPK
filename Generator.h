@@ -2,8 +2,6 @@
 #include <memory>
 
 
-
-
 class Generator {
 protected:
 	double m_amplituda = 1.0;
@@ -69,7 +67,6 @@ public:
 
 
 	double generujSygnal() override;
-
 };
 
 
