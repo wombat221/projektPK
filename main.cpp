@@ -5,7 +5,7 @@
 #include "RegulatorPID.h"
 #include "ProstyUAR.h"
 #include "Generator.h";
-
+#include "Wybor.h"
 
 #define MAIN // ustaw na MAIN aby skompilowaæ program docelowy / ustaw na DEBUG aby skompilowaæ program testujacy 
 
@@ -432,6 +432,7 @@ namespace TESTY_ProstyUAR
 	void test_UAR_1_skokJednostkowyPID();
 	void test_UAR_2_skokJednostkowyPID();
 	void test_UAR_3_skokJednostkowyPID();
+	
 }
 
 void TESTY_ProstyUAR::wykonaj_testy()
@@ -440,6 +441,7 @@ void TESTY_ProstyUAR::wykonaj_testy()
 	test_UAR_1_skokJednostkowyPID();
 	test_UAR_2_skokJednostkowyPID();
 	test_UAR_3_skokJednostkowyPID();
+	
 }
 
 void TESTY_ProstyUAR::test_UAR_1_brakPobudzenia()
@@ -582,6 +584,7 @@ void TESTY_ProstyUAR::test_UAR_3_skokJednostkowyPID()
 		std::cerr << "INTERUPTED! (niespodziwany wyjatek)\n";
 	}
 }
+
 
 int main()
 {

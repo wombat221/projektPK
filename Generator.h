@@ -15,33 +15,46 @@ protected:
 		setOkres(okres);
 		setSkladowa(stala);
 	};
-	virtual double generujSygnal(double SygWe) = 0;
-	Generator() {};
+	
+	
+	Generator() = default;
+	Generator(const Generator& generator) = default;
+	Generator(Generator&& generator) = default;
+	Generator& operator=(const Generator& generator) = default;
+	Generator& operator=(Generator&& generator) = default;
 public:
+	virtual ~Generator() = default;
+	virtual double generujSygnal() = 0;
 
-	void setAmplituda(double amplituda);
-	void setOkres(int okres);
-	void setSkladowa(double stala);
+	void setAmplituda(double amplituda) { m_amplituda = amplituda; };
+	void setOkres(int okres) { m_okres = okres; };
+	void setSkladowa(double stala) { m_skladowaStala = stala; };
+	void setKrok(int krok) { m_krok = krok; };
+
+
+	int getKrok() const { return m_krok; };
+	double getAmplituda() const { return m_amplituda; };
+	int getOkres() const { return m_okres; };
 };
 
-class GeneratorSinusoidalny; 
+ 
 
 
 class GeneratorProstokatny : public Generator {
 private:
 	double m_wypelnienie = 0.5;
 public:
-	GeneratorProstokatny() {};
+	GeneratorProstokatny() = default;
 	GeneratorProstokatny(double amplituda, int okres, double Stala, double wypelnienie,int krok = 0) : Generator(amplituda, okres, Stala,krok) {
 		setWypelnienie(wypelnienie);
 	};
 
-	void setWypelnienie(double wypelnienie);
-	
-	double generujSygnal(double SygWe) override;
+	void setWypelnienie(double wypelnienie) { m_wypelnienie = wypelnienie; };
+	double getWypelnienie() const { return m_wypelnienie; };
 
-	static GeneratorSinusoidalny konwersjaNaSinusoidalny();
-	
+	double generujSygnal() override;
+
+
 };
 
 
@@ -49,15 +62,24 @@ class GeneratorSinusoidalny : public Generator {
 private:
 	double m_faza = 6.28;
 public:
-	GeneratorSinusoidalny() {};
 	GeneratorSinusoidalny(double amplituda, int okres, double Stala, int krok = 0) : Generator(amplituda, okres, Stala,krok) {};
+	void setFaza(double faza) { m_faza = faza; };
 
 
-	double generujSygnal(double SygWe) override;
+	double generujSygnal() override;
 
-	static GeneratorProstokatny konwersjaNaProstokatny(double wypelnienie);
+	
 
 };
+
+
+
+
+
+
+
+
+
 
 
 

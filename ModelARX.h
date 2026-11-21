@@ -30,6 +30,7 @@ private:
 
 	double Zaklocenie();
 public:
+	ModelARX() = default;
 	ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie = 1, double odchylenie = 0.0);
 
 	void setUmin(double uMin);
