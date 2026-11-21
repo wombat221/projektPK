@@ -1,5 +1,5 @@
 #pragma once
-
+#include <memory>
 
 
 
@@ -18,9 +18,9 @@ protected:
 	
 	
 	Generator() = default;
-	Generator(const Generator& generator) = default;
+	Generator(const Generator& generator) = delete;
 	Generator(Generator&& generator) = default;
-	Generator& operator=(const Generator& generator) = default;
+	Generator& operator=(const Generator& generator) = delete;
 	Generator& operator=(Generator&& generator) = default;
 public:
 	virtual ~Generator() = default;
@@ -62,6 +62,8 @@ class GeneratorSinusoidalny : public Generator {
 private:
 	double m_faza = 6.28;
 public:
+	GeneratorSinusoidalny() = default;
+
 	GeneratorSinusoidalny(double amplituda, int okres, double Stala, int krok = 0) : Generator(amplituda, okres, Stala,krok) {};
 	void setFaza(double faza) { m_faza = faza; };
 

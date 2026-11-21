@@ -4,25 +4,31 @@
 
 double ProstyUAR::symuluj(double SygWe) {
 	double uchyb = SygWe - m_modelARX.getOstatnieWyjscie();
-	double wyjscieRegulator = m_regulatorPID.symuluj(uchyb);
-	return m_modelARX.symuluj(wyjscieRegulator);
+	double wyjscieRegulatora = m_regulatorPID.symuluj(uchyb);
+	return m_modelARX.symuluj(wyjscieRegulatora);
 }
 
 
 
 
-double ProstyUAR::symulujZGeneratorem() {
+wynikiSymulacji ProstyUAR::symulujZGeneratorem() {
 	if (czyJestWskaznik()) {
-		double SygGen = m_generator->generujSygnal();
-		return symuluj(SygGen);
+		wynikiSymulacji wynik;
+		wynik.zadana = m_generator->generujSygnal();
+		wynik.uchyb = wynik.zadana - m_modelARX.getOstatnieWyjscie();
+		double wyjscieRegulatora = m_regulatorPID.symuluj(wynik.uchyb);
+		wynik.proporcjonalnaP = m_regulatorPID.getProporcjonalnaP();
+		wynik.CalkujacaI = m_regulatorPID.getCalkujacaI();
+		wynik.rozniczkujacaD = m_regulatorPID.getRozniczkujacaD();
+		wynik.wyjscie = m_modelARX.symuluj(wyjscieRegulatora);
+		return wynik;
 	}else
 		throw std::invalid_argument("Pusty Wska¿nik generatora");
 }
 
 Generator& ProstyUAR::getGenerator() {
-	if (czyJestWskaznik()) {
+	if (czyJestWskaznik()) 
 		return *m_generator;
-	}
 	else
 		throw std::invalid_argument("Nie ma generatora");
 };
@@ -32,9 +38,8 @@ Generator& ProstyUAR::getGenerator() {
 void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
 	if (generator == nullptr)
 		throw std::invalid_argument("Pusty wskaznik nowego generatora");
-	if (!czyJestWskaznik()) {
+	if (!czyJestWskaznik()) 
 		generator->setKrok(m_generator->getKrok());
-	}
 	m_generator = std::move(generator);
 }
 

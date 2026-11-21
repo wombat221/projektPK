@@ -42,6 +42,8 @@ public:
 	void setOgraniczenieU(bool OgraniczenieU) { m_ograniczenieU = OgraniczenieU; };
 	void setOgraniczeniey(bool OgraniczenieY) { m_ograniczenieY = OgraniczenieY; };
 
+	void setOpoznienie(int opoznienie) { m_opoznienie = opoznienie; };
+
 
 	double getOstatnieWyjscie() { return m_buforWyjscia[0]; };
 
