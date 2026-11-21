@@ -129,6 +129,8 @@
     <ClCompile Include="ModelARX.cpp" />
     <ClCompile Include="ProstyUAR.cpp" />
     <ClCompile Include="RegulatorPID.cpp" />
+    <ClCompile Include="WartstwaUslugi.cpp" />
+    <ClCompile Include="WartstwaUslugi.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Generator.h" />
