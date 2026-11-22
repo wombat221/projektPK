@@ -45,5 +45,7 @@ public:
 
 	double symuluj(double sygWe);
 	wynikiSymulacji symulujZGeneratorem();
+
+
 	
 };
