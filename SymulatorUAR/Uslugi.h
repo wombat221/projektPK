@@ -9,7 +9,8 @@ private:
 	
 
 	
-	void setOkres_Generator();
+	void setOkres_Gen();
+	
 public:
 	Uslugi() = default;
 
@@ -57,15 +58,24 @@ public:
 	double getSumaSkladowychU_PID() const { return m_prostyUAR.getRegulator().getSumaSkladowychU(); };
 
 
+	void setAmplituda_Gen(double amplituda) { m_prostyUAR.getGenerator().setAmplituda(amplituda); }
+	void setOkres_Gen(double okresS, int interwalMs);
+	void setSkladowa_Gen(double stala) { m_prostyUAR.getGenerator().setSkladowa(stala); };
+	void setWypelnienie_GenProstokatny(double wypelnienie);
+
+	double getAmplituda_Generator() const { return m_prostyUAR.getGenerator(); };
+	int getOkres_Generator() const { return m_prostyUAR.getGenerator(); };
+	double getStala_Generator() const { return m_prostyUAR.getGenerator(); };
+
+
 
 	void ustawGenerator_UAR(Generator::TypGeneratora typ, double amplituda,
 		double okresS, int interwalMs,
 		double stala, double wypelnienie);
+
 	void reset_UAR() { m_prostyUAR.reset(); };
 
 
-
-	void setOkres_Generator(double okresS,int interwalMs);
 	
 	void setOkres_Zegar(double okresS);
 	void setInterwal_Zegar(int interwalMs);

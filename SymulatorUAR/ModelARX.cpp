@@ -1,9 +1,9 @@
 #include "ModelARX.h"
 
 ModelARX::ModelARX(std::vector<double> a,std::vector<double> b, int opoznienie, double odchylenie)  {
+    setOpoznienie(opoznienie);
     setWspolczynnikiA(a);
     setWspolczynnikiB(b);
-    setOpoznienie(opoznienie);
     setZaklocenia(odchylenie);
 }
 
@@ -93,6 +93,7 @@ void ModelARX::setCzyOgraniczenieY(bool OgraniczenieY) {
 
 void ModelARX::setOpoznienie(int opoznienie) {
    m_opoznienie = std::clamp(opoznienie, 1, 20);
+   m_buforWejscia.resize(m_WspolczynnikiB.size() + m_opoznienie, 0.0);
 }
 
 void ModelARX::setZaklocenia(double zaklocenia) {
@@ -107,8 +108,8 @@ void ModelARX::setWspolczynnikiA(std::vector<double> a){
     for (double& wspolczynnikA : a)
         wspolczynnikA = std::clamp(wspolczynnikA, -2.0, 2.0);
 
-    m_WspolczynnikiA = std::move(a);
-    m_buforWejscia.resize(m_WspolczynnikiA.size(), 0.0);
+    m_WspolczynnikiA = a;
+    m_buforWyjscia.resize(m_WspolczynnikiA.size(), 0.0);
 }
 void ModelARX::setWspolczynnikiB(std::vector<double> b) {
     if (b.empty())
@@ -118,7 +119,7 @@ void ModelARX::setWspolczynnikiB(std::vector<double> b) {
     for (double& wspolczynnikB : b)
         wspolczynnikB = std::clamp(wspolczynnikB, -2.0, 2.0);
 
-    m_WspolczynnikiB = std::move(b);
+    m_WspolczynnikiB = b;
     m_buforWejscia.resize(m_WspolczynnikiB.size() + m_opoznienie, 0.0);
 }
 

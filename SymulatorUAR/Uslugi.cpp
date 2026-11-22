@@ -1,35 +1,42 @@
 #include "Uslugi.h"
 
-void Uslugi::setOkres_Generator() {
+void Uslugi::setOkres_Gen() {
 	double okresDyskretny = m_zegar.obliczOkresDyskretny();
 	m_prostyUAR.getGenerator().setOkres(okresDyskretny);
 }
 
 
-void Uslugi::setOkres_Generator(double okresS,int interwalMs) {
+void Uslugi::setOkres_Gen(double okresS,int interwalMs) {
 	m_zegar.setInterwal(interwalMs);
 	m_zegar.setOkres(okresS);
-	setOkres_Generator();
+	setOkres_Gen();
 }
 
 void Uslugi::setOkres_Zegar(double okresS) {
 	m_zegar.setOkres(okresS);
-	setOkres_Generator();
+	setOkres_Gen();
 }
 
 void Uslugi::setInterwal_Zegar(int interwalMs) {
 	m_zegar.setInterwal(interwalMs);
-	setOkres_Generator();
+	setOkres_Gen();
 }
 
 void Uslugi::ustawGenerator_UAR(Generator::TypGeneratora typ, double amplituda,
 							double okresS, int interwalMs, 
 							double stala,double wypelnienie = 0.5) 
 {
-	setOkres_Generator(okresS, interwalMs);
+	setOkres_Gen(okresS, interwalMs);
 
 	if (typ == Generator::TypGeneratora::prostokat)
 		m_prostyUAR.UstawGenerator(std::make_unique<GeneratorProstokatny>(amplituda, m_zegar.obliczOkresDyskretny(), stala, wypelnienie));
 	else 
 		m_prostyUAR.UstawGenerator(std::make_unique<GeneratorSinusoidalny>(amplituda, m_zegar.obliczOkresDyskretny(), stala));
+}
+
+void Uslugi::setWypelnienie_GenProstokatny(double wypelnienie) {
+	GeneratorProstokatny* genProstokatny = dynamic_cast<GeneratorProstokatny*>(&m_prostyUAR.getGenerator());
+	if (genProstokatny != nullptr)
+		genProstokatny->setWypelnienie(wypelnienie);
+		
 }

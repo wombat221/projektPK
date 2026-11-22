@@ -50,6 +50,8 @@ public:
 	const RegulatorPID& getRegulator() const { return m_regulatorPID; };
 	const Generator& getGenerator() const;
 
+
+
 	double symuluj(double sygWe);
 	wynikiSymulacji symulujZGeneratorem();
 

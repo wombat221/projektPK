@@ -15,6 +15,10 @@ protected:
 	};
 
 	
+	void setKrok(int krok);
+	int getKrok() const { return m_krok; };
+
+
 	Generator() = default;
 	Generator(Generator&& generator) = default;
 	Generator& operator=(Generator&& generator) = default;
@@ -25,13 +29,12 @@ public:
 	void setAmplituda(double amplituda);
 	void setOkres(int okres);
 	void setSkladowa(double stala);
-	void setKrok(int krok);
+	
 
 
 	double getAmplituda() const { return m_amplituda; };
 	int getOkres() const { return m_probki; };
 	double getStala() const { return m_skladowaStala; };
-	int getKrok() const { return m_krok; };
 
 	Generator(const Generator& generator) = delete;
 	Generator& operator=(const Generator& generator) = delete;
