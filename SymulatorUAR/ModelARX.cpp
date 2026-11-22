@@ -1,10 +1,10 @@
 #include "ModelARX.h"
 
 ModelARX::ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie, double odchylenie)
-   : m_AWspolczynniki(a), m_BWspolczynniki(b), m_opoznienie(opoznienie), m_odchylenie(odchylenie)
+   : m_WspolczynnikiA(a), m_WspolczynnikiB(b), m_opoznienie(opoznienie), m_odchylenie(odchylenie)
 {
-    m_buforWejscia.resize(m_BWspolczynniki.size() + m_opoznienie,0.0);
-    m_buforWyjscia.resize(m_BWspolczynniki.size(), 0.0);
+    m_buforWejscia.resize(m_WspolczynnikiA.size() + m_opoznienie,0.0);
+    m_buforWyjscia.resize(m_WspolczynnikiB.size(), 0.0);
 }
 
 
@@ -14,6 +14,44 @@ double ModelARX::Zaklocenie() {
     std::uniform_real_distribution<double> uniDistReal(0.0, m_odchylenie);
     return uniDistReal(m_szum);
 }
+
+double ModelARX::symuluj(double SygWe) {
+    if (m_ograniczenieU) {
+        if (SygWe < m_uMin) {
+            SygWe = m_uMin;
+        }
+        if (SygWe > m_uMax) {
+            SygWe = m_uMax;
+        }
+    }
+    m_buforWejscia.push_front(SygWe);
+    m_buforWejscia.pop_back();
+
+    double wynik = 0.0;
+
+    for (int i = 0; i < m_WspolczynnikiB.size(); i++) {
+        wynik += m_WspolczynnikiB[i] * m_buforWejscia[i + m_opoznienie];
+    }
+    for (int i = 0; i < m_WspolczynnikiA.size(); i++) {
+        wynik -= m_WspolczynnikiA[i] * m_buforWyjscia[i];
+    }
+    if (m_ograniczenieY) {
+        if (wynik < m_yMin) {
+            wynik = m_yMin;
+        }
+        if (wynik > m_yMax) {
+            wynik = m_yMax;
+        }
+    }
+    wynik += Zaklocenie();
+
+
+    m_buforWyjscia.push_front(wynik);
+    m_buforWyjscia.pop_back();
+
+    return wynik;
+};
+
 
 
 void ModelARX::setUmin(double uMin) {
@@ -39,39 +77,21 @@ void ModelARX::setYmax(double yMax) {
     m_yMax = yMax;
 }
 
-double ModelARX::symuluj(double SygWe) {
-    if (m_ograniczenieU) {
-        if (SygWe < m_uMin) {
-            SygWe = m_uMin;
-        }
-        if (SygWe > m_uMax) {
-            SygWe = m_uMax;
-        }
-    }
-    m_buforWejscia.push_front(SygWe);
-    m_buforWejscia.pop_back();
 
-    double wynik = 0.0;
+void ModelARX::setOgraniczenieU(bool OgraniczenieU) {
+}
+void ModelARX::setOgraniczeniey(bool OgraniczenieY) {
 
-    for (int i = 0; i < m_BWspolczynniki.size(); i++) {
-        wynik += m_BWspolczynniki[i] * m_buforWejscia[i + m_opoznienie];
-    }
-    for (int i = 0; i < m_AWspolczynniki.size(); i++) {
-        wynik -= m_AWspolczynniki[i] * m_buforWyjscia[i];
-    }
-    if (m_ograniczenieY) {
-        if (wynik < m_yMin) {
-            wynik = m_yMin;
-        }
-        if (wynik > m_yMax) {
-            wynik = m_yMax;
-        }
-    }
-    wynik += Zaklocenie();
+}
+void ModelARX::setOpoznienie(int opoznienie) {
 
-  
-    m_buforWyjscia.push_front(wynik);
-    m_buforWyjscia.pop_back();
-    
-    return wynik;
-};
+}
+void ModelARX::setOdchylenie(double odchylenie) {
+}
+void ModelARX::setWspolczynnikiA(std::vector<double> a) {
+
+}
+void ModelARX::setWspolczynnikiB(std::vector<double> b) {
+
+}
+

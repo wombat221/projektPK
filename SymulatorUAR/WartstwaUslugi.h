@@ -7,6 +7,9 @@ private:
 public:
 	Uslugi() = default;
 
+
+
+
 	void setOpoznienieARX(int opoznienie) {
 		if (opoznienie < 1)
 			opoznienie = 0;
@@ -14,6 +17,4 @@ public:
 			opoznienie = 20;
 		m_prostyUAR.getModelARX().setOpoznienie(opoznienie);
 	}
-	
-
 };

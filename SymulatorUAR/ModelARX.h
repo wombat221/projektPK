@@ -12,8 +12,8 @@ private:
 	double m_yMax = 10.0;
 	
 
-	std::vector<double> m_AWspolczynniki = { -0.4 };
-	std::vector<double> m_BWspolczynniki = { 0.6 };
+	std::vector<double> m_WspolczynnikiA = { -0.4 };
+	std::vector<double> m_WspolczynnikiB = { 0.6 };
 
 	int m_opoznienie = 1;
 	double m_odchylenie = 0.0;
@@ -34,18 +34,24 @@ public:
 
 	void setUmin(double uMin);
 	void setUmax(double uMax);
-
 	void setYmin(double yMin);
 	void setYmax(double yMax);
+	void setOgraniczenieU(bool OgraniczenieU);
+	void setOgraniczeniey(bool OgraniczenieY);
+	void setOpoznienie(int opoznienie);
+	void setOdchylenie(double odchylenie);
+	void setWspolczynnikiA(std::vector<double> a);
+	void setWspolczynnikiB(std::vector<double> b);
 
-	void setOgraniczenieU(bool OgraniczenieU) { m_ograniczenieU = OgraniczenieU; };
-	void setOgraniczeniey(bool OgraniczenieY) { m_ograniczenieY = OgraniczenieY; };
 
-	void setOpoznienie(int opoznienie) { m_opoznienie = opoznienie; };
+	double getUmin() const { return m_uMin; };
+	double getUmax() const { return m_uMax; };
+	double getYmin() const { return m_uMin; };
+	double getYmax() const { return m_uMax; };
+	bool czyOgraniczenieU() const { return m_ograniczenieU; };
+	bool czyOgraniczenieY() const { return m_ograniczenieY; };
 
-
-	double getOstatnieWyjscie() { return m_buforWyjscia[0]; };
-
+	double getOstatnieWyjscie() const { return m_buforWyjscia[0]; };
 
 	double symuluj(double sygWe);
 };
