@@ -12,6 +12,7 @@ SOURCES += \
     ModelARX.cpp \
     ProstyUAR.cpp \
     RegulatorPID.cpp \
+    Uslugi.cpp \
     WartstwaUslugi.cpp \
     ZegarSymulacji.cpp \
     main.cpp \
