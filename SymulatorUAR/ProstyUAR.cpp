@@ -1,5 +1,4 @@
 #include "ProstyUAR.h"
-#include <exception>
 
 
 double ProstyUAR::symuluj(double SygWe) {
@@ -36,7 +35,7 @@ Generator& ProstyUAR::getGenerator() {
 
 
 void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
-	if (!czyJestWskaznik()) 
+    if (czyJestWskaznik() && generator != nullptr)
 		generator->setKrok(m_generator->getKrok());
 	m_generator = std::move(generator);
 }
