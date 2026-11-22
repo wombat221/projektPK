@@ -56,7 +56,10 @@ public:
 	double getRozniczkujacaD() const { return m_prostyUAR.getRegulator().getRozniczkujacaD(); };
 	double getSumaSkladowychU() const { return m_prostyUAR.getRegulator().getSumaSkladowychU(); };
 
-	void ustawGenerator();
+	void ustawGenerator(Generator::TypGeneratora typ, double amplituda,
+		double okresS, int interwalMs,
+		double stala, double wypelnienie);
+
 
 
 

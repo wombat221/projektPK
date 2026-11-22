@@ -22,7 +22,14 @@ void Uslugi::setInterwal_Zegar(int interwalMs) {
 	setOkres_Generator();
 }
 
-void Uslugi::ustawGenerator(double amplituda,double okresS, int interwalMs 
-							double stala,double wypelnienie) {
+void Uslugi::ustawGenerator(Generator::TypGeneratora typ, double amplituda,
+							double okresS, int interwalMs, 
+							double stala,double wypelnienie) 
+{
+	setOkres_Generator(okresS, interwalMs);
 
+	if (typ == Generator::TypGeneratora::prostokat)
+		m_prostyUAR.UstawGenerator(std::make_unique<GeneratorProstokatny>(amplituda, m_zegar.obliczOkresDyskretny(), stala, wypelnienie));
+	else 
+		m_prostyUAR.UstawGenerator(std::make_unique<GeneratorSinusoidalny>(amplituda, m_zegar.obliczOkresDyskretny(), stala));
 }
