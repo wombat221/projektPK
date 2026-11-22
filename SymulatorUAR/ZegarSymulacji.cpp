@@ -26,7 +26,7 @@ int ZegarSymulacji::obliczOkresDyskretny() const {
     return (probki < 1) ? 1 : probki;
 }
 
-int ZegarSymulacji::obliczProbkiOkna() const {
+int ZegarSymulacji::getProbkiOkna() const {
     int probki = m_oknoSymulacji * 1000 / m_interwalMs;
     return (probki < 1) ? 1 : probki;
 }

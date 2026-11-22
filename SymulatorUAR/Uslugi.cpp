@@ -40,3 +40,9 @@ void Uslugi::setWypelnienie_GenProstokatny(double wypelnienie) {
 		genProstokatny->setWypelnienie(wypelnienie);
 		
 }
+double Uslugi::getWypelnienie_genProstokatny() const {
+	const GeneratorProstokatny* genProstokatny = dynamic_cast<const GeneratorProstokatny*>(&m_prostyUAR.getGenerator());
+	if (genProstokatny != nullptr)
+		return genProstokatny->getWypelnienie();
+	return -1.0; 
+}
