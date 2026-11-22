@@ -59,18 +59,11 @@ public:
 
 
 class GeneratorSinusoidalny : public Generator {
-private:
-	double m_faza = 6.28;
+
 public:
 	GeneratorSinusoidalny() = default;
 
-    GeneratorSinusoidalny(double amplituda, int okres, double Stala,double faza) : Generator(amplituda, okres, Stala) {
-		setFaza(faza);
-	};
-	
-	void setFaza(double faza);
-	double getFaza() const { return m_faza; };
-
+    GeneratorSinusoidalny(double amplituda, int okres, double Stala) : Generator(amplituda, okres, Stala) {};
 
 	double generujSygnal() override;
 };

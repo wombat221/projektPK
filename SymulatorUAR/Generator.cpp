@@ -49,8 +49,6 @@ void GeneratorProstokatny::setWypelnienie(double wypelnienie) {
 }
 
 
-void GeneratorSinusoidalny::setFaza(double faza) {
-	m_faza = std::clamp(faza, 0.0, 6.28);
-}
+
 
 
