@@ -108,7 +108,7 @@ void ModelARX::setWspolczynnikiA(std::vector<double> a) {
         wspolczynnikA = std::clamp(wspolczynnikA, -2.0, 2.0);
 
     m_WspolczynnikiA = std::move(a);
-    m_buforWejscia.resize(m_WspolczynnikiA.size() + m_opoznienie, 0.0);
+    m_buforWejscia.resize(m_WspolczynnikiA.size(), 0.0);
 }
 void ModelARX::setWspolczynnikiB(std::vector<double> b) {
     if (b.empty())
@@ -119,7 +119,7 @@ void ModelARX::setWspolczynnikiB(std::vector<double> b) {
         wspolczynnikB = std::clamp(wspolczynnikB, -2.0, 2.0);
 
     m_WspolczynnikiB = std::move(b);
-    m_buforWejscia.resize(m_WspolczynnikiB.size(), 0.0);
+    m_buforWejscia.resize(m_WspolczynnikiB.size() + m_opoznienie, 0.0);
 }
 
 void ModelARX::reset() {

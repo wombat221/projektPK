@@ -53,8 +53,6 @@ public:
 	double getWypelnienie() const { return m_wypelnienie; };
 
 	double generujSygnal() override;
-
-
 };
 
 

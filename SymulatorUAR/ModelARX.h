@@ -18,7 +18,7 @@ private:
 	int m_opoznienie = 1;
 	double m_zaklocenia = 0.0;
 
-	std::deque<double> m_buforWejscia = {0.0};
+	std::deque<double> m_buforWejscia = {0.0,0.0};
 	std::deque<double> m_buforWyjscia = {0.0};
 
 

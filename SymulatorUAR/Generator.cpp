@@ -20,10 +20,10 @@ double GeneratorProstokatny::generujSygnal() {
 
 
 double GeneratorSinusoidalny::generujSygnal() {
-	double wynik = 0.0;
-	wynik = m_amplituda * std::sin(m_krok / static_cast<double>(m_okres) * 2 * Pi) + m_skladowaStala;
-	m_krok = (m_krok + 1) % m_okres;
-	return wynik;
+    double wynik = 0.0;
+    wynik = m_amplituda * std::sin(m_krok / static_cast<double>(m_okres) * 2 * Pi) + m_skladowaStala;
+    m_krok = (m_krok + 1) % m_okres;
+    return wynik;
 }
 
 
@@ -32,7 +32,9 @@ void Generator::setAmplituda(double amplituda) {
 }
 
 void Generator::setOkres(int okres) {
-	m_okres = std::max(okres, 1);
+	if (okres < 1)
+		okres = 1;
+	m_okres = okres;
 }
 
 void Generator::setSkladowa(double stala) {
@@ -47,6 +49,9 @@ void Generator::setKrok(int krok) {
 void GeneratorProstokatny::setWypelnienie(double wypelnienie) {
 	m_wypelnienie = std::clamp(wypelnienie, 0.0, 1.0);
 }
+
+
+
 
 
 
