@@ -9,7 +9,7 @@ private:
 public:
     ZegarSymulacji() = default;
     ZegarSymulacji(int interwalMs, double okresS, double oknoSymulacji);
-    void setInterwal(double interwalMs);
+    void setInterwal(int interwalMs);
     void setOkres(double okresS);
     void setOknoSymulacji(double oknoSymulacji);
 

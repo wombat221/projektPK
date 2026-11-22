@@ -42,13 +42,13 @@ double ModelARX::symuluj(double SygWe) {
     m_buforWyjscia.pop_back();
 
     return wynik;
-};
+}
 
 
 
 void ModelARX::setUmin(double uMin) {
     m_uMin = std::clamp(uMin, -100.0, m_uMax);
-};
+}
 
 void ModelARX::setUmax(double uMax) {
     m_uMax = std::clamp(uMax, m_uMin, 100.0);
@@ -66,7 +66,7 @@ void ModelARX::setOgraniczeniaU(double uMin, double uMax) {
 
 void ModelARX::setYmin(double yMin) {
     m_yMin = std::clamp(yMin, -100.0, m_yMax);
-};
+}
 
 void ModelARX::setYmax(double yMax) {
     m_yMax = std::clamp(yMax, m_yMin, 100.0);

@@ -1,6 +1,7 @@
 #pragma once
 #include <deque>
 #include <random>
+#include <vector>
 
 class ModelARX {
 private:
@@ -48,8 +49,8 @@ public:
 
 	double getUmin() const { return m_uMin; };
 	double getUmax() const { return m_uMax; };
-	double getYmin() const { return m_uMin; };
-	double getYmax() const { return m_uMax; };
+	double getYmin() const { return m_yMin; };
+	double getYmax() const { return m_yMax; };
 	bool czyOgraniczenieU() const { return m_ograniczenieU; };
 	bool czyOgraniczenieY() const { return m_ograniczenieY; };
 	int getOpoznienie() const { return m_opoznienie; };

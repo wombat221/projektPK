@@ -2,7 +2,7 @@
 #include "ModelARX.h"
 #include "RegulatorPID.h"
 #include "Generator.h"
-
+#include <memory>
 
 struct wynikiSymulacji
 {
@@ -12,6 +12,7 @@ struct wynikiSymulacji
 	double proporcjonalnaP;
 	double CalkujacaI;
 	double rozniczkujacaD;
+	double sterowanie;
 };
 
 
@@ -52,6 +53,6 @@ public:
 	double symuluj(double sygWe);
 	wynikiSymulacji symulujZGeneratorem();
 
-
+	void reset();
 	
 };

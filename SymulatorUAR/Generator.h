@@ -35,6 +35,10 @@ public:
 
 	Generator(const Generator& generator) = delete;
 	Generator& operator=(const Generator& generator) = delete;
+
+	enum class TypGeneratora {
+		sinus,prosokat
+	};
 };
 
 

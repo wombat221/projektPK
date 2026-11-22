@@ -9,8 +9,8 @@ ZegarSymulacji::ZegarSymulacji(int interwalMs, double okresS, double oknoSymulac
 }
 
 
-void ZegarSymulacji::setInterwal(double interwalMs) {
-    m_interwalMs = std::clamp(interwalMs, 10.0, 200.0);
+void ZegarSymulacji::setInterwal(int interwalMs) {
+    m_interwalMs = std::clamp(interwalMs, 10, 200);
 }
 
 void ZegarSymulacji::setOkres(double okresS) {

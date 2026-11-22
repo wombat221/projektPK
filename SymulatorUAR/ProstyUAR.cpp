@@ -19,10 +19,11 @@ wynikiSymulacji ProstyUAR::symulujZGeneratorem() {
 		wynik.proporcjonalnaP = m_regulatorPID.getProporcjonalnaP();
 		wynik.CalkujacaI = m_regulatorPID.getCalkujacaI();
 		wynik.rozniczkujacaD = m_regulatorPID.getRozniczkujacaD();
+		wynik.sterowanie = m_regulatorPID.getSumaSkladowychU();
 		wynik.wyjscie = m_modelARX.symuluj(wyjscieRegulatora);
 		return wynik;
 	}else
-		throw std::logic_error("Pusty Wskażnik generatora");
+		throw std::logic_error("Nie ma generatora");
 }
 
 Generator& ProstyUAR::getGenerator() {
@@ -49,3 +50,8 @@ void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
 
 
 
+void ProstyUAR::reset() {
+	m_modelARX.reset();
+	m_regulatorPID.reset();
+
+}
