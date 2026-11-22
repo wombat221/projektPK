@@ -12,4 +12,6 @@ void ZegarSymulacji::setInterwal(double interwalMs){
 void ZegarSymulacji::setOkres(double okresS){
 }
 
-void ZegarSymulacji::setOknoSymulacji(double oknoSymulacji)
+void ZegarSymulacji::setOknoSymulacji(double oknoSymulacji) {
+
+}
