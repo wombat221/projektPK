@@ -15,14 +15,16 @@ struct wynikiSymulacji
 };
 
 
+
+
 class ProstyUAR {
 private:	
+	using GeneratorPtr = std::unique_ptr<Generator>;
+
 
 	ModelARX m_modelARX;
 	RegulatorPID m_regulatorPID;
 	GeneratorPtr m_generator;
-
-
 
 
 	bool czyJestWskaznik() {

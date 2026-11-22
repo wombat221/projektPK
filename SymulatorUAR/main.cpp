@@ -595,9 +595,9 @@ void TESTY_ProstyUAR::test_UAR_3_skokJednostkowyPID()
 
 int main()
 {
-	//TESTY_ModelARX::wykonaj_testy();
-	//TESTY_RegulatorPID::wykonaj_testy();
-	//TESTY_ProstyUAR::wykonaj_testy();
+	TESTY_ModelARX::wykonaj_testy();
+	TESTY_RegulatorPID::wykonaj_testy();
+	TESTY_ProstyUAR::wykonaj_testy();
 	
 
 }

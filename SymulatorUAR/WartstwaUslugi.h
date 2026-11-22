@@ -10,5 +10,7 @@ public:
 
 
 
-	void setOpoznienieARX(int opoznienie) { m_prostyUAR.getModelARX().setOpoznienie(opoznienie); }
+	void setOpoznienieARX(int opoznienie);
+	void set
+
 };

@@ -1,6 +1,10 @@
 #pragma once
 #include <memory>
 
+enum class TypGenerator {
+	sinusoidalny,
+	prostokatny
+};
 
 class Generator {
 protected:
@@ -37,7 +41,7 @@ public:
 	Generator& operator=(const Generator& generator) = delete;
 };
 
-using GeneratorPtr = std::unique_ptr<Generator>;
+
 
 
 class GeneratorProstokatny : public Generator {
