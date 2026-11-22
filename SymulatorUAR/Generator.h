@@ -16,23 +16,25 @@ protected:
 
 	
 	Generator() = default;
-	Generator(const Generator& generator) = delete;
 	Generator(Generator&& generator) = default;
-	Generator& operator=(const Generator& generator) = delete;
 	Generator& operator=(Generator&& generator) = default;
 public:
 	virtual ~Generator() = default;
 	virtual double generujSygnal() = 0;
 
-	void setAmplituda(double amplituda) { m_amplituda = amplituda; };
-	void setOkres(int okres) { m_okres = okres; };
-	void setSkladowa(double stala) { m_skladowaStala = stala; };
-	void setKrok(int krok) { m_krok = krok; };
+	void setAmplituda(double amplituda);
+	void setOkres(int okres);
+	void setSkladowa(double stala);
+	void setKrok(int krok);
 
 
-	int getKrok() const { return m_krok; };
 	double getAmplituda() const { return m_amplituda; };
 	int getOkres() const { return m_okres; };
+	double getStala() const { return m_skladowaStala; };
+	int getKrok() const { return m_krok; };
+
+	Generator(const Generator& generator) = delete;
+	Generator& operator=(const Generator& generator) = delete;
 };
 
 using GeneratorPtr = std::unique_ptr<Generator>;
@@ -47,7 +49,7 @@ public:
 		setWypelnienie(wypelnienie);
 	};
 
-	void setWypelnienie(double wypelnienie) { m_wypelnienie = wypelnienie; };
+	void setWypelnienie(double wypelnienie);
 	double getWypelnienie() const { return m_wypelnienie; };
 
 	double generujSygnal() override;
@@ -62,8 +64,12 @@ private:
 public:
 	GeneratorSinusoidalny() = default;
 
-    GeneratorSinusoidalny(double amplituda, int okres, double Stala) : Generator(amplituda, okres, Stala) {};
-	void setFaza(double faza) { m_faza = faza; };
+    GeneratorSinusoidalny(double amplituda, int okres, double Stala,double faza) : Generator(amplituda, okres, Stala) {
+		setFaza(faza);
+	};
+	
+	void setFaza(double faza);
+	double getFaza() const { return m_faza; };
 
 
 	double generujSygnal() override;

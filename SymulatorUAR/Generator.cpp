@@ -1,5 +1,6 @@
 #include "Generator.h"
 #include <cmath>
+#include <algorithm>
 
 constexpr double Pi = 3.14159265359;
 
@@ -25,5 +26,31 @@ double GeneratorSinusoidalny::generujSygnal() {
 	return wynik;
 }
 
+
+void Generator::setAmplituda(double amplituda) {
+	m_amplituda = std::clamp(amplituda, 0.0, 100.0);
+}
+
+void Generator::setOkres(int okres) {
+	m_okres = std::max(okres, 1);
+}
+
+void Generator::setSkladowa(double stala) {
+	m_skladowaStala = std::clamp(stala, -100.0, 100.0);
+}
+
+void Generator::setKrok(int krok) {
+	m_krok = krok;
+}
+
+
+void GeneratorProstokatny::setWypelnienie(double wypelnienie) {
+	m_wypelnienie = std::clamp(wypelnienie, 0.0, 1.0);
+}
+
+
+void GeneratorSinusoidalny::setFaza(double faza) {
+	m_faza = std::clamp(faza, 0.0, 6.28);
+}
 
 

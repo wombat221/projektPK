@@ -316,7 +316,6 @@ Makefile: ..\..\SymulatorUAR.pro C:\Qt\6.12.0\msvc2022_64\mkspecs\win32-msvc\qma
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\resolve_config.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\exclusive_builds_post.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\default_post.prf \
-		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\win32\console.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\qml_debug.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\precompile_header.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\warn_on.prf \
@@ -329,6 +328,7 @@ Makefile: ..\..\SymulatorUAR.pro C:\Qt\6.12.0\msvc2022_64\mkspecs\win32-msvc\qma
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\uic.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\qmake_use.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\file_copies.prf \
+		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\win32\windows.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\testcase_targets.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\exceptions.prf \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\yacc.prf \
@@ -337,10 +337,12 @@ Makefile: ..\..\SymulatorUAR.pro C:\Qt\6.12.0\msvc2022_64\mkspecs\win32-msvc\qma
 		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Widgets.prl \
 		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Gui.prl \
 		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Core.prl \
+		C:\Qt\6.12.0\msvc2022_64\lib\Qt6EntryPoint.prl \
 		C:\Qt\6.12.0\msvc2022_64\mkspecs\features\build_pass.prf \
 		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Widgetsd.prl \
 		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Guid.prl \
-		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Cored.prl
+		C:\Qt\6.12.0\msvc2022_64\lib\Qt6Cored.prl \
+		C:\Qt\6.12.0\msvc2022_64\lib\Qt6EntryPointd.prl
 	$(QMAKE) -o Makefile ..\..\SymulatorUAR.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\spec_pre.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\common\msvc-sanitize.conf:
@@ -574,7 +576,6 @@ C:\Qt\6.12.0\msvc2022_64\mkspecs\features\win32\default_pre.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\resolve_config.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\exclusive_builds_post.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\default_post.prf:
-C:\Qt\6.12.0\msvc2022_64\mkspecs\features\win32\console.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\qml_debug.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\precompile_header.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\warn_on.prf:
@@ -587,6 +588,7 @@ C:\Qt\6.12.0\msvc2022_64\mkspecs\features\win32\opengl.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\uic.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\qmake_use.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\file_copies.prf:
+C:\Qt\6.12.0\msvc2022_64\mkspecs\features\win32\windows.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\testcase_targets.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\exceptions.prf:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\yacc.prf:
@@ -595,10 +597,12 @@ C:\Qt\6.12.0\msvc2022_64\mkspecs\features\lex.prf:
 C:\Qt\6.12.0\msvc2022_64\lib\Qt6Widgets.prl:
 C:\Qt\6.12.0\msvc2022_64\lib\Qt6Gui.prl:
 C:\Qt\6.12.0\msvc2022_64\lib\Qt6Core.prl:
+C:\Qt\6.12.0\msvc2022_64\lib\Qt6EntryPoint.prl:
 C:\Qt\6.12.0\msvc2022_64\mkspecs\features\build_pass.prf:
 C:\Qt\6.12.0\msvc2022_64\lib\Qt6Widgetsd.prl:
 C:\Qt\6.12.0\msvc2022_64\lib\Qt6Guid.prl:
 C:\Qt\6.12.0\msvc2022_64\lib\Qt6Cored.prl:
+C:\Qt\6.12.0\msvc2022_64\lib\Qt6EntryPointd.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\..\SymulatorUAR.pro -spec win32-msvc "CONFIG+=debug" "CONFIG+=qml_debug"
 

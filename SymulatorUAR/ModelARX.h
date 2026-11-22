@@ -16,7 +16,7 @@ private:
 	std::vector<double> m_WspolczynnikiB = { 0.6 };
 
 	int m_opoznienie = 1;
-	double m_odchylenie = 0.0;
+	double m_zaklocenia = 0.0;
 
 	std::deque<double> m_buforWejscia = {0.0};
 	std::deque<double> m_buforWyjscia = {0.0};
@@ -25,7 +25,7 @@ private:
 	bool m_ograniczenieU = true;
 	bool m_ograniczenieY = true;
 
-	std::mt19937 m_szum;
+	std::mt19937 gen_plos;
 
 	double Zaklocenie();
 public:
@@ -34,12 +34,14 @@ public:
 
 	void setUmin(double uMin);
 	void setUmax(double uMax);
+	void setOgraniczeniaU(double uMin,double uMax);
 	void setYmin(double yMin);
 	void setYmax(double yMax);
-	void setOgraniczenieU(bool OgraniczenieU);
-	void setOgraniczeniey(bool OgraniczenieY);
+	void setOgraniczeniaY(double yMin, double yMax);
+	void setCzyOgraniczenieU(bool OgraniczenieU);
+	void setCzyOgraniczeniey(bool OgraniczenieY);
 	void setOpoznienie(int opoznienie);
-	void setOdchylenie(double odchylenie);
+	void setZaklocenia(double zaklocenia);
 	void setWspolczynnikiA(std::vector<double> a);
 	void setWspolczynnikiB(std::vector<double> b);
 
@@ -50,10 +52,16 @@ public:
 	double getYmax() const { return m_uMax; };
 	bool czyOgraniczenieU() const { return m_ograniczenieU; };
 	bool czyOgraniczenieY() const { return m_ograniczenieY; };
+	int getOpoznienie() const { return m_opoznienie; };
+    double getZaklocenia() const { return m_zaklocenia; };
+	std::vector<double> getWspolczynnikiA() const { return m_WspolczynnikiA; };
+	std::vector<double> getWspolczynnikiB() const { return m_WspolczynnikiB; };
 
 	double getOstatnieWyjscie() const { return m_buforWyjscia[0]; };
 
 	double symuluj(double sygWe);
+
+	void reset();
 };
 
 
