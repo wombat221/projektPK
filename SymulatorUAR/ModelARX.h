@@ -42,8 +42,8 @@ public:
 	void setCzyOgraniczenieY(bool OgraniczenieY);
 	void setOpoznienie(int opoznienie);
 	void setZaklocenia(double zaklocenia);
-	void setWspolczynnikiA(std::vector<double> a);
-	void setWspolczynnikiB(std::vector<double> b);
+	void setWspolczynnikiA(std::vector<double>& a);
+	void setWspolczynnikiB(std::vector<double>& b);
 
 
 	double getUmin() const { return m_uMin; };

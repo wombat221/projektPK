@@ -30,6 +30,7 @@ private:
 	bool czyJestWskaznik() {
 		return (m_generator != nullptr);
 	}
+	
 public:
 	ProstyUAR() : m_modelARX(), m_regulatorPID(), m_generator(std::make_unique<GeneratorProstokatny>()) {};
 	
@@ -44,6 +45,9 @@ public:
 	ModelARX& getModelARX() { return m_modelARX; };
 	RegulatorPID& getRegulator() { return m_regulatorPID; };
 	Generator& getGenerator();
+	const ModelARX& getModelARX() const { return m_modelARX; };
+	const RegulatorPID& getRegulator() const { return m_regulatorPID; };
+	const Generator& getGenerator() const;
 
 	double symuluj(double sygWe);
 	wynikiSymulacji symulujZGeneratorem();

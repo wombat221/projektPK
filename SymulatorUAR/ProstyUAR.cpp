@@ -26,12 +26,18 @@ wynikiSymulacji ProstyUAR::symulujZGeneratorem() {
 }
 
 Generator& ProstyUAR::getGenerator() {
-	if (czyJestWskaznik()) 
+	if (czyJestWskaznik())
 		return *m_generator;
 	else
 		throw std::logic_error("Nie ma generatora");
-};
+}
 
+const Generator& ProstyUAR::getGenerator() const {
+	if (m_generator != nullptr)
+		return *m_generator;
+	else
+		throw std::logic_error("Nie ma generatora");
+}
 
 
 void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
