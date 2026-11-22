@@ -17,10 +17,10 @@ void WszystkieTesty::raportBleduSekwencji(const std::vector<double>& spodz, cons
 	std::cerr << std::fixed << std::setprecision(PREC);
 	std::cerr << "  Spodziewany:\t";
 	for (const auto& el : spodz)
-		std::cerr << el << ", ";
+		std::cerr << el << " ";
 	std::cerr << "\n  Faktyczny:\t";
 	for (const auto& el : fakt)
-		std::cerr << el << ", ";
+		std::cerr << el << " ";
 	std::cerr << "\n\n";
 }
 
@@ -470,24 +470,26 @@ void WszystkieTesty::test_UAR_3_skokJednostkowyPID()
 
 
 
-void WszystkieTesty::test_PID_skokJednostkowy()
+void WszystkieTesty::test_Generator_1_GeneratorProstokatny()
 {
-	const std::string sygnatura = "RegPID (k = 0.5, TI = 10.0, TD = 0.2) -> test skoku jednostkowego";
+	const std::string sygnatura = "Test Generatora Prostokatny";
 	try
 	{
-		RegulatorPID instancjaTestowa(0.5, 10.0, 0.2);
-		constexpr size_t LICZ_ITER = 30;
+		GeneratorProstokatny instancjaTestowa;
+		instancjaTestowa.setOkres(4);
+		size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);
 		std::vector<double> spodzSygWy(LICZ_ITER);
 		std::vector<double> faktSygWy(LICZ_ITER);
 
 		for (size_t i = 0; i < LICZ_ITER; i++)
 			sygWe[i] = !!i;
-		spodzSygWy = { 0, 0.8, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1,
-					   2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3, 3.1, 3.2, 3.3, 3.4 };
+		spodzSygWy = { 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0,
+					   0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0,
+					   1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0 };
 
 		for (size_t i = 0; i < LICZ_ITER; i++)
-			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+			faktSygWy[i] = instancjaTestowa.generujSygnal();
 
 		myAssert(spodzSygWy, faktSygWy, sygnatura);
 	}
@@ -498,6 +500,68 @@ void WszystkieTesty::test_PID_skokJednostkowy()
 	}
 }
 
+
+
+void WszystkieTesty::test_Generator_2_GeneratorSinusoidalny()
+{
+	const std::string sygnatura = "Test Generatora Sinusoidalny";
+	try
+	{
+		GeneratorSinusoidalny instancjaTestowa;
+		instancjaTestowa.setOkres(4);
+		size_t LICZ_ITER = 30;
+		std::vector<double> sygWe(LICZ_ITER);
+		std::vector<double> spodzSygWy(LICZ_ITER);
+		std::vector<double> faktSygWy(LICZ_ITER);
+
+		for (size_t i = 0; i < LICZ_ITER; i++)
+			sygWe[i] = !!i;
+		spodzSygWy = { 0.0, 1.0, 0.0, -1.0, 0.0, 1.0, 0.0, -1.0, 0.0, 1.0,
+					   0.0, -1.0, 0.0, 1.0, 0.0, -1.0, 0.0, 1.0, 0.0, -1.0,
+					   0.0, 1.0, 0.0, -1.0, 0.0, 1.0, 0.0, -1.0, 0.0, 1.0 }; 
+
+		for (size_t i = 0; i < LICZ_ITER; i++)
+			faktSygWy[i] = instancjaTestowa.generujSygnal();
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...)
+	{
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED! (niespodziewany wyjatek)\n";
+	}
+}
+
+void WszystkieTesty::test_Generator_3_PrzelaczenietypuGeneratora()
+{
+	const std::string sygnatura = "ProstyUAR -> przelaczenie generatora w 15 kroku (z zachowaniem kroku)";
+	try
+	{
+		ProstyUAR instancjaTestowa;
+		instancjaTestowa.UstawGenerator(std::make_unique<GeneratorProstokatny>(1.0, 4, 0.0, 0.5));
+
+		constexpr size_t LICZ_ITER = 30;
+		std::vector<double> spodzSygWy = { 1.0, 1.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 1.0,
+										   0.0, 0.0, 1.0, 1.0, 0.0, -1.0, 0.0, 1.0, 0.0, -1.0,
+										   0.0, 1.0, 0.0, -1.0, 0.0, 1.0, 0.0, -1.0, 0.0, 1.0 };
+		std::vector<double> faktSygWy(LICZ_ITER);
+
+		for (size_t i = 0; i < LICZ_ITER; i++)
+		{
+			if (i == 15) {
+				instancjaTestowa.UstawGenerator(std::make_unique<GeneratorSinusoidalny>(1.0, 4, 0.0));
+			}
+			faktSygWy[i] = instancjaTestowa.getGenerator().generujSygnal();
+		}
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...)
+	{
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED! (niespodziewany wyjatek)\n";
+	}
+}
 
 
 
@@ -527,6 +591,11 @@ void WszystkieTesty::uruchomWszystkie()
 	test_UAR_1_skokJednostkowyPID();
 	test_UAR_2_skokJednostkowyPID();
 	test_UAR_3_skokJednostkowyPID();
+
+	test_Generator_1_GeneratorProstokatny();
+	test_Generator_2_GeneratorSinusoidalny();
+	test_Generator_3_PrzelaczenietypuGeneratora();
+
 
 	std::cout << "Testy zakonczone powodzeniem: "
 		<< s_poprawneTesty << "/" << s_liczbaTestow << "\n";

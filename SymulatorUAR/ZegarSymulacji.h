@@ -1,7 +1,7 @@
 #pragma once
 
 
-class ZegarSymulacji {
+class ZegarSymulacji{
 private:
     int m_interwalMs = 50;
     double m_okresS = 10.0;

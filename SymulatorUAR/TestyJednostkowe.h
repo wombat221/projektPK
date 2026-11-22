@@ -31,7 +31,9 @@ private:
 	static void test_UAR_2_skokJednostkowyPID();
 	static void test_UAR_3_skokJednostkowyPID();
 	
-	static void test_Generator_1_GeneratorSinusoidalny();
+	static void test_Generator_1_GeneratorProstokatny();
+	static void test_Generator_2_GeneratorSinusoidalny();
+	static void test_Generator_3_PrzelaczenietypuGeneratora();
 
 	static void sprawdz(bool wynik, const std::string& sygnatura, const std::string& opis = "");
 

@@ -42,6 +42,9 @@ public:
 	enum class TypGeneratora {
 		sinus,prostokat
 	};
+
+
+
 };
 
 

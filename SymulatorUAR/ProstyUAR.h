@@ -19,8 +19,11 @@ struct wynikiSymulacji
 
 
 class ProstyUAR {
+public: 
+using GeneratorPtr = std::unique_ptr<Generator>;
+
+
 private:	
-	using GeneratorPtr = std::unique_ptr<Generator>;
 
 
 	ModelARX m_modelARX;
