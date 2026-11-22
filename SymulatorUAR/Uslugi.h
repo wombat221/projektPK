@@ -7,6 +7,9 @@ private:
 	ProstyUAR  m_prostyUAR;
 	ZegarSymulacji m_zegar;
 	
+
+	
+	void setOkres_Generator();
 public:
 	Uslugi() = default;
 
@@ -33,8 +36,12 @@ public:
 	std::vector<double> getWspolczynnikiA_ARX() const { return m_prostyUAR.getModelARX().getWspolczynnikiA(); };
 	std::vector<double> getWspolczynnikiB_ARX() const { return m_prostyUAR.getModelARX().getWspolczynnikiB(); };
 	
-	void setOkres_Generator(double okres,double interwal);
-	void setOkres(double Okres)
+
+
+
+	void setOkres_Generator(double interwalMs,double okresS);
+	void setOkres_Zegar(double okresS);
+	void setInterwal_Zegar(double interwalMs);
 
 
 };
