@@ -466,6 +466,43 @@ void WszystkieTesty::test_UAR_3_skokJednostkowyPID()
 	}
 }
 
+
+
+
+
+void WszystkieTesty::test_PID_skokJednostkowy()
+{
+	const std::string sygnatura = "RegPID (k = 0.5, TI = 10.0, TD = 0.2) -> test skoku jednostkowego";
+	try
+	{
+		RegulatorPID instancjaTestowa(0.5, 10.0, 0.2);
+		constexpr size_t LICZ_ITER = 30;
+		std::vector<double> sygWe(LICZ_ITER);
+		std::vector<double> spodzSygWy(LICZ_ITER);
+		std::vector<double> faktSygWy(LICZ_ITER);
+
+		for (size_t i = 0; i < LICZ_ITER; i++)
+			sygWe[i] = !!i;
+		spodzSygWy = { 0, 0.8, 0.7, 0.8, 0.9, 1, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 2, 2.1,
+					   2.2, 2.3, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9, 3, 3.1, 3.2, 3.3, 3.4 };
+
+		for (size_t i = 0; i < LICZ_ITER; i++)
+			faktSygWy[i] = instancjaTestowa.symuluj(sygWe[i]);
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...)
+	{
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED! (niespodziewany wyjatek)\n";
+	}
+}
+
+
+
+
+
+
 void WszystkieTesty::uruchomWszystkie()
 {
 	s_liczbaTestow = 0;
