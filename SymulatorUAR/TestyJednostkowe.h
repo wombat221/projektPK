@@ -9,4 +9,5 @@ private:
 
 public:
 	TestyUAR() = delete;
+	
 };

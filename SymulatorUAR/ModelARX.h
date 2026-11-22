@@ -39,7 +39,7 @@ public:
 	void setYmax(double yMax);
 	void setOgraniczeniaY(double yMin, double yMax);
 	void setCzyOgraniczenieU(bool OgraniczenieU);
-	void setCzyOgraniczeniey(bool OgraniczenieY);
+	void setCzyOgraniczenieY(bool OgraniczenieY);
 	void setOpoznienie(int opoznienie);
 	void setZaklocenia(double zaklocenia);
 	void setWspolczynnikiA(std::vector<double> a);

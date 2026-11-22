@@ -87,7 +87,7 @@ void ModelARX::setCzyOgraniczenieU(bool OgraniczenieU) {
     m_ograniczenieU = OgraniczenieU;
 }
 
-void ModelARX::setCzyOgraniczeniey(bool OgraniczenieY) {
+void ModelARX::setCzyOgraniczenieY(bool OgraniczenieY) {
     m_ograniczenieY = OgraniczenieY;
 }
 
