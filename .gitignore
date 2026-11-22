@@ -1,12 +1,9 @@
-# Foldery Visual Studio i budowania (w dowolnym podkatalogu)
 .vs/
 build/
 x64/
 x86/
 Debug/
 Release/
-
-# Pliki generowane przez Visual Studio / qmake / Qt
 *.sln
 *.vcxproj
 *.vcxproj.filters
