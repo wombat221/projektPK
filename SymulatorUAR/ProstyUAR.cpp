@@ -23,21 +23,19 @@ wynikiSymulacji ProstyUAR::symulujZGeneratorem() {
 		wynik.wyjscie = m_modelARX.symuluj(wyjscieRegulatora);
 		return wynik;
 	}else
-		throw std::invalid_argument("Pusty Wskażnik generatora");
+		throw std::logic_error("Pusty Wskażnik generatora");
 }
 
 Generator& ProstyUAR::getGenerator() {
 	if (czyJestWskaznik()) 
 		return *m_generator;
 	else
-		throw std::invalid_argument("Nie ma generatora");
+		throw std::logic_error("Nie ma generatora");
 };
 
 
 
 void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
-	if (generator == nullptr)
-		throw std::invalid_argument("Pusty wskaznik nowego generatora");
 	if (!czyJestWskaznik()) 
 		generator->setKrok(m_generator->getKrok());
 	m_generator = std::move(generator);

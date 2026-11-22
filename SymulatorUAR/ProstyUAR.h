@@ -2,7 +2,7 @@
 #include "ModelARX.h"
 #include "RegulatorPID.h"
 #include "Generator.h"
-#include <memory>
+
 
 struct wynikiSymulacji
 {
