@@ -1,9 +1,12 @@
+# Foldery budowania Qt i Visual Studio
 build/
 build-*/
 x64/
 Debug/
 Release/
 .vs/
+
+# Pliki użytkownika i wygenerowane pliki solucji/projektu
 *.pro.user
 *.pro.user.*
 *.user
