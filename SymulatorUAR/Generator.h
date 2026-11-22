@@ -1,15 +1,11 @@
 #pragma once
 #include <memory>
 
-enum class TypGenerator {
-	sinusoidalny,
-	prostokatny
-};
 
 class Generator {
 protected:
 	double m_amplituda = 1.0;
-	int m_okres = 10; 
+	int m_probki = 200; 
 	double m_skladowaStala = 0.0;
 	int m_krok = 0;
     Generator(double amplituda, int okres, double stala) {
@@ -33,7 +29,7 @@ public:
 
 
 	double getAmplituda() const { return m_amplituda; };
-	int getOkres() const { return m_okres; };
+	int getOkres() const { return m_probki; };
 	double getStala() const { return m_skladowaStala; };
 	int getKrok() const { return m_krok; };
 

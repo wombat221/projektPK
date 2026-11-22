@@ -32,7 +32,7 @@ private:
 	}
 	
 public:
-	ProstyUAR() : m_modelARX(), m_regulatorPID(), m_generator(std::make_unique<GeneratorProstokatny>()) {};
+	ProstyUAR() : m_generator(std::make_unique<GeneratorProstokatny>()) {};
 	
 	ProstyUAR(ModelARX modelARX, RegulatorPID regulatorPID, GeneratorPtr generator = nullptr) :
 		m_modelARX(std::move(modelARX)),

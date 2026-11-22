@@ -35,6 +35,7 @@ public:
 	std::vector<double> getWspolczynnikiB_ARX() const { return m_prostyUAR.getModelARX().getWspolczynnikiB(); };
 	
 	void setOkres_Generator(double okres,double interwal);
+	void setOkres(double Okres)
 
 
 };
