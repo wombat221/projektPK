@@ -15,8 +15,6 @@ protected:
 	};
 
 	
-	void setKrok(int krok);
-	int getKrok() const { return m_krok; };
 
 
 	Generator() = default;
@@ -30,6 +28,8 @@ public:
 	void setOkres(int okres);
 	void setSkladowa(double stala);
 	
+	void setKrok(int krok);
+	int getKrok() const { return m_krok; };
 
 
 	double getAmplituda() const { return m_amplituda; };
