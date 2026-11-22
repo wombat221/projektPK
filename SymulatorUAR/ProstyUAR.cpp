@@ -1,14 +1,10 @@
 #include "ProstyUAR.h"
 
-
 double ProstyUAR::symuluj(double SygWe) {
 	double uchyb = SygWe - m_modelARX.getOstatnieWyjscie();
 	double wyjscieRegulatora = m_regulatorPID.symuluj(uchyb);
 	return m_modelARX.symuluj(wyjscieRegulatora);
 }
-
-
-
 
 wynikiSymulacji ProstyUAR::symulujZGeneratorem() {
 	if (czyJestWskaznik()) {
@@ -40,15 +36,11 @@ const Generator& ProstyUAR::getGenerator() const {
 		throw std::logic_error("Nie ma generatora");
 }
 
-
 void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
     if (czyJestWskaznik() && generator != nullptr)
 		generator->setKrok(m_generator->getKrok());
 	m_generator = std::move(generator);
 }
-
-
-
 
 void ProstyUAR::reset() {
 	m_modelARX.reset();
