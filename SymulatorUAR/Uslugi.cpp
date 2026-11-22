@@ -2,7 +2,7 @@
 
 void Uslugi::setOkres_Gen() {
 	double okresDyskretny = m_zegar.obliczOkresDyskretny();
-	m_prostyUAR.getGenerator().setOkres(okresDyskretny);
+	m_prostyUAR.getGenerator().setProbki(okresDyskretny);
 }
 
 

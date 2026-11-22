@@ -53,5 +53,5 @@ void ProstyUAR::UstawGenerator(GeneratorPtr generator) {
 void ProstyUAR::reset() {
 	m_modelARX.reset();
 	m_regulatorPID.reset();
-
+	m_generator->reset();
 }

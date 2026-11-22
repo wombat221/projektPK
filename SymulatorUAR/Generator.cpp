@@ -31,10 +31,11 @@ void Generator::setAmplituda(double amplituda) {
 	m_amplituda = std::clamp(amplituda, 0.0, 100.0);
 }
 
-void Generator::setOkres(int okres) {
-	if (okres < 1)
-		okres = 1;
-	m_probki = okres;
+void Generator::setProbki(int Probki) {
+	if (Probki < 1)
+		Probki = 1;
+	m_probki = Probki;
+	m_krok %= m_probki;
 }
 
 void Generator::setSkladowa(double stala) {

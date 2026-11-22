@@ -22,7 +22,6 @@ class ProstyUAR {
 public: 
 using GeneratorPtr = std::unique_ptr<Generator>;
 
-
 private:	
 
 

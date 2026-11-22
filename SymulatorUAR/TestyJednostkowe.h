@@ -34,10 +34,12 @@ private:
 	static void test_Generator_1_GeneratorProstokatny();
 	static void test_Generator_2_GeneratorSinusoidalny();
 	static void test_Generator_3_PrzelaczenietypuGeneratora();
+	static void test_generator_4_Reset();
 
 	static void sprawdz(bool wynik, const std::string& sygnatura, const std::string& opis = "");
 
 public:
 	WszystkieTesty() = delete;
+	static void uruchomWszystkieNasze();
 	static void uruchomWszystkie();
 };

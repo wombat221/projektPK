@@ -10,7 +10,7 @@ protected:
 	int m_krok = 0;
     Generator(double amplituda, int okres, double stala) {
 		setAmplituda(amplituda);
-		setOkres(okres);
+		setProbki(okres);
 		setSkladowa(stala);
 	};
 
@@ -25,7 +25,7 @@ public:
 	virtual double generujSygnal() = 0;
 
 	void setAmplituda(double amplituda);
-	void setOkres(int okres);
+	void setProbki(int probka);
 	void setSkladowa(double stala);
 	
 	void setKrok(int krok);
@@ -42,9 +42,9 @@ public:
 	enum class TypGeneratora {
 		sinus,prostokat
 	};
+	
 
-
-
+	void reset() { m_krok = 0 ;};
 };
 
 

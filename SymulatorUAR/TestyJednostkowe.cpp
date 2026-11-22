@@ -476,7 +476,7 @@ void WszystkieTesty::test_Generator_1_GeneratorProstokatny()
 	try
 	{
 		GeneratorProstokatny instancjaTestowa;
-		instancjaTestowa.setOkres(4);
+		instancjaTestowa.setProbki(4);
 		size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);
 		std::vector<double> spodzSygWy(LICZ_ITER);
@@ -508,7 +508,7 @@ void WszystkieTesty::test_Generator_2_GeneratorSinusoidalny()
 	try
 	{
 		GeneratorSinusoidalny instancjaTestowa;
-		instancjaTestowa.setOkres(4);
+		instancjaTestowa.setProbki(4);
 		size_t LICZ_ITER = 30;
 		std::vector<double> sygWe(LICZ_ITER);
 		std::vector<double> spodzSygWy(LICZ_ITER);
@@ -563,8 +563,45 @@ void WszystkieTesty::test_Generator_3_PrzelaczenietypuGeneratora()
 	}
 }
 
+void WszystkieTesty::test_generator_4_Reset()
+{
+	const std::string sygnatura = "GeneratorSinusoidalny -> reset licznika kroku w polowie okresu";
+	try
+	{
+		GeneratorSinusoidalny gen(1.0, 4, 0.0);
+		gen.generujSygnal(); 
+		gen.generujSygnal(); 
+
+		gen.reset(); 
+
+		std::vector<double> spodz = { 0.0, 1.0, 0.0, -1.0 };
+		std::vector<double> fakt(spodz.size());
+
+		for (size_t i = 0; i < fakt.size(); i++)
+			fakt[i] = gen.generujSygnal();
+
+		myAssert(spodz, fakt, sygnatura);
+	}
+	catch (...)
+	{
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
 
 
+
+void WszystkieTesty::uruchomWszystkieNasze() {
+	test_Generator_1_GeneratorProstokatny();
+	test_Generator_2_GeneratorSinusoidalny();
+	test_Generator_3_PrzelaczenietypuGeneratora();
+	test_generator_4_Reset();
+
+
+
+	std::cout << "Testy zakonczone powodzeniem: "
+		<< s_poprawneTesty << "/" << s_liczbaTestow << "\n";
+};
 
 
 void WszystkieTesty::uruchomWszystkie()
@@ -595,6 +632,8 @@ void WszystkieTesty::uruchomWszystkie()
 	test_Generator_1_GeneratorProstokatny();
 	test_Generator_2_GeneratorSinusoidalny();
 	test_Generator_3_PrzelaczenietypuGeneratora();
+
+
 
 
 	std::cout << "Testy zakonczone powodzeniem: "
