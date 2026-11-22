@@ -9,11 +9,15 @@ private:
 public:
     ZegarSymulacji() = default;
     ZegarSymulacji(int interwalMs, double okresS, double oknoSymulacji);
+    
     void setInterwal(int interwalMs);
     void setOkres(double okresS);
     void setOknoSymulacji(double oknoSymulacji);
+    
+    int getInterwal() const { return m_interwalMs; }
+    double getOkres() const { return m_okresS; }
+
 
     int obliczOkresDyskretny() const;
-
-    int obliczProbkiOkna() const;
+    int getProbkiOkna() const;
 };

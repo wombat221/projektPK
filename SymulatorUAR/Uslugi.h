@@ -10,7 +10,6 @@ private:
 
 	
 	void setOkres_Gen();
-	
 public:
 	Uslugi() = default;
 
@@ -30,15 +29,16 @@ public:
 
 	double getUmin_ARX() const { return m_prostyUAR.getModelARX().getUmin(); }
 	double getUmax_ARX() const { return m_prostyUAR.getModelARX().getUmax(); }
-	double getYmin_ARX() const { return m_prostyUAR.getModelARX().getYmax(); }
-	double getYmax_ARX() const { return m_prostyUAR.getModelARX().getYmin(); }
+	double getYmin_ARX() const { return m_prostyUAR.getModelARX().getYmin(); }
+	double getYmax_ARX() const { return m_prostyUAR.getModelARX().getYmax(); }
 	bool getczyOrganczenieY_ARX() const { return m_prostyUAR.getModelARX().czyOgraniczenieY(); }
 	bool getCzyOgraniczenieU_ARX() const { return m_prostyUAR.getModelARX().czyOgraniczenieU(); }
 	int getOpoznienie_ARX() const { return m_prostyUAR.getModelARX().getOpoznienie(); }
 	double getZaklocenia_ARX() const { return m_prostyUAR.getModelARX().getZaklocenia(); }
 	std::vector<double> getWspolczynnikiA_ARX() const { return m_prostyUAR.getModelARX().getWspolczynnikiA(); }
 	std::vector<double> getWspolczynnikiB_ARX() const { return m_prostyUAR.getModelARX().getWspolczynnikiB(); }
-	
+	void reset_ARX() { m_prostyUAR.getModelARX().reset(); }
+
 	void resetPamiecCalki_PID() { m_prostyUAR.getRegulator().resetPamiecCalki(); }
 	void reset_PID() { m_prostyUAR.getRegulator().reset(); }
 
@@ -63,9 +63,19 @@ public:
 	void setSkladowa_Gen(double stala) { m_prostyUAR.getGenerator().setSkladowa(stala); };
 	void setWypelnienie_GenProstokatny(double wypelnienie);
 
-	double getAmplituda_Generator() const { return m_prostyUAR.getGenerator(); };
-	int getOkres_Generator() const { return m_prostyUAR.getGenerator(); };
-	double getStala_Generator() const { return m_prostyUAR.getGenerator(); };
+	double getAmplituda_Generator() const { return m_prostyUAR.getGenerator().getAmplituda(); };
+	int getOkres_Generator() const { return m_prostyUAR.getGenerator().getOkres(); };
+	double getStala_Generator() const { return m_prostyUAR.getGenerator().getStala(); };
+	double getWypelnienie_genProstokatny() const;
+
+
+	void setOkres_Zegar(double okresS);
+	void setInterwal_Zegar(int interwalMs);
+	void setOknoSymulacji_Zegar(double oknoSymulacji) { m_zegar.setOknoSymulacji(oknoSymulacji); }
+
+	double getOkres_Zegar() const { return m_zegar.getOkres(); }
+	int getInterwal_Zegar() const { return m_zegar.getInterwal(); }
+	int getProbkiOkna_Zegar() const { return m_zegar.getProbkiOkna(); }
 
 
 
@@ -74,13 +84,6 @@ public:
 		double stala, double wypelnienie);
 
 	void reset_UAR() { m_prostyUAR.reset(); };
-
-
-	
-	void setOkres_Zegar(double okresS);
-	void setInterwal_Zegar(int interwalMs);
-	void setOknoSymulacji_Zegar(double oknoSymulacji) { m_zegar.setOknoSymulacji(oknoSymulacji); }
-	
 	
 	
 
