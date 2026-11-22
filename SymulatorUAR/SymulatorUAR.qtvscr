@@ -1,18 +1,14 @@
 <FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" FontFamily="Segoe UI" FontSize="12">
   <FlowDocument.Tag><![CDATA[{
-  "timestamp": "2026-11-22 02:15:17",
+  "timestamp": "2026-11-22 21:26:14",
   "files": {
-    "C:\\Users\\kapi8\\source\\repos\\projektPK\\SymulatorUAR\\SymulatorUAR.vcxproj": {
-      "before": "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",
-      "after": "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"
+    "C:\\Users\\krzysztof_dawid\\Documents\\GitHub\\projektPK\\SymulatorUAR\\SymulatorUAR.vcxproj": {
+      "before": "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",
+      "after": "7Rtpc+LIdavyLVX5DwrlCSa7gDnsmR1AWxiwlyzgAzzebLmKElIbNKNru1u2STb/Pa8PtSQQxtfMJjueqRlBv0Pd/e7XzZ/effNN84c719FuECa277VyldJeTkOe6Vu2N2/lQnpdfJf7Qf/Ln5un2P+ITKp10bUROnRi4DmipJU7DG3HymnAxYNvC0qD9+UyMRfINUjJtU3sE/+alkzfLVvoBjl+gHDZJTNGVq7u7dVywF3Tmn2K3GPsh4E2MGbIaeXkCzu+d23PQ2xQmCARyICeBdX6numEFmrlzpGDDIJ+uzuoRxRAk2KlS5xmOT3MJsP+NE8dg1772NWBSbOsvgk4DIj9yCLeMrkumoXze6fGMV58Ys2y2mOx5bAEEAZdprb92PFnhrO20cehben/rlRrtf1KrVusVffeFmv7+3vFw+reYbF20K4cHHYq3V7t8D9qbziN3K9z36cjw0UkMEykj5duCNvr44v2ebOchkmCn9Dy1seWfkY/jKc3tT2QQTQkMS5tz/JvidDESD4fhCbrlb3SXql6UNmDZ7N8L+p97Ia29wiOCWzJ9IwOCbcQDRTFspkOt3L5nV01Xsi3Wvm8dnKu/bV3ZxNKdlPQq19piQpTyxdy+s7ucMzZSe3r2hhs0sfLwpXi2Cyrj0LMTFVjOUtrcwMfU02yaeV2dj90pEmfGnRRuBoqy+0EQUkafSkATiSnlbP0J73AlF0UftvZjQTEF5ywz3wuMvgUSWS2ygwnvu8QRPWbSr0Wm2M0Krf7JKRBSNWu6Fj4gatmeRUiCdqTAQjNdu1/IdI5D72J7aKBPcMGXl4QY470a7AF1CxvxZP8OgsDGyZFeAxTHfkUHmDHycEIMenWJssA6e0gcGyTu7kV0+dgSdf3gLmLLNugKGud2XBJfIptF1Ym9mLFCNMwRsDteFVxUrq0otQpAa7JXLm9zypxiznXP7y8o1V+bmn3H+cm0u5hnVg5pgL4taklMgkSeZWEA9ngCldIwCNmuyKZQZwx86OQyIDLSjAHB3u/pqa8E3d1YAxntO8RajiOflCqVEt7U5fcmNW9anXK0oMYKk0NlupboYOIbvoYNeah3bi1LZYycf8sYQ80s2euJ2F5v89qRGTRWPxv5ZQSgHs88kMPksdDBIkWkvGnleuEhPouj3ONjtPx3cB2UEqE22Pl5oh6RoXCsXgqhTVEhDl7TWis4ZkwzR/t+SKnTdAdTUz5vWb6oWNpnk81xwdnjbQ4QH/HPnMTaGjw4Nmyayw5Mk93gRizeO0sS0pxy2LVIqCK96fSsd4dRR7LzWNVltE3ifxk7Y5ib+TWxwsEKqo2Zt2ELwjCLF+D2LOaJCRifCkEtAy7RirFeTSf2NjBGNfnpbSKZULRm+VOlRNbtb7Rj9m7hCV9pTsXKUpKSZkwhwYr9ZRep/AiO4PEA/TmGb44lc8Bq4gxxMGXYixYRYyFdTLH9YxZp6udmGX0kv7cA/cnlFQmn894G8UhJKwZPKPXDWzvE1TKGLnIg4D2jFfJ5HiFYfSeJ0g7YV96lOMINhHTJ0g6i+mLSDnJ+HPLOPmu+yX8gLRd5RND3zzFCIKVCREQijzbQy+TK2UxhkDuGp6lm45WPLyDkvNs0u2fF65mtnf1q2t8QiV0B2G+6PmOP/e14i/m+1sTSqcp1YpHY/4d3xhOiDoGgSEA254DM+YfCcW2ScfwP6R7fIQusH8L30boVitCGePahNg3qMiB06kZOCFh//h3CPMIexAKCEV3AdaKJ1WtOOxqRUKt9+a331beakXeDNOKlzWteFurQ2dBPN99D896vb5/IJ+Ayr+/g6dV33/Lvlv1+gE8e5patfuJBMgkV9fIoCFG5MoyqHFlha67LJlBoFX/NqeN0cVAY8+dXaGwhSvXN6cBRpA7k9JCpJLrIox2OpGLriP1PSiVCbQUpBi2TGjTuySbe18lCk72rkctIyK7l7fM3fRj5CFoEiLtQTsUUTHWX9ZgkoZ878IiIf5fmMsvNjMX69VelAF/ZfbCWss8gPAep8gOH5NZZ9bcqviT0R9stW2JLqrhyGY/5H28BWpDqR35AOsICkZytVLnsyyu0EjjNEoNmVM2yrY4PWi82b3vJQVoBt43B2HTqZmeBPzsQmch68tFMBmuHhiqkouW802tNFpDvDxCkDtzEB5A1xrC7ICVw1CnJnqu7U0oiskhhGiC+h47ZxHUMqVcByga7kATJEecFpqtHqS9G4AxsU0MmPQYQq99bZuXBvZYwqCzMN1gMRqk383Gge3YAIm1s3dnIi7sHyHRgdxkDk1Wz2yW18fVjAaGNw+h+TCmQGLAgQdkHBD/K2+b5TWQIjqZse4C03Km1IktXwHEBDAraHKLPR4ad7AByIKueHJYIccpoY9jmyb69LI/6p5cjhsXo37npNtrTKMPAKhVG9PeqH046E17P096o26vO20P+scjeI4nJ+ft414D0A7qDQAdXhw3zibT0clUfH6zu+GdsOkbIPGmxwgTn21J1LNfG08s0J9jw+1CxnUIx4RqH3kmkAlRpHBGADsZnRHoQzgKtScLjAwLWd3BAA6z0giKcBwGAaR5BOSMaRgcGh7kK7pI5bNhinQC7OklO0WY0jY/ToJeJD8UEOSb4YoFVOhHoeOwsx0S7U9qTGFKkxiws1qd/w/HLalBhcoXD4U+Kx58LPp0QsPEvDbDBQs45oi6e1F5x0rJWLKxo+2iAHkWHEwzN69SVseeQbfnoOdRvDz1bY+WYKRBFshxalX+OenWkjxSvi0JyHq5rMmTkSbJdx2c4r4OznpH5F9z5WF71D/qjSfd3imzolHnn+8pnA+18lDM1Kp5zWNd1Hx8PifPNkssX/S9IgRdiuGoLK8O9fMHcBQKf/NaEM7giAmOUSf+J+S18gf73+/PDuqVet00ryvWdV5zpDdq5f8O6JFo29hc2BQ8DhQqDJLTkut/ULhgtta7Q2bIYgRY5g30Hli0EJqyCapUrecxt905GXbbkyPfYbcTJGkWRJFFwX41LEQmsBGuOGT1UcScsyCKbLUlcm+nBJIF6YjRObpGGNQctFy8JQOgXiLqI+7ydnZFm6RwlWxEsII6OvrkaIr0HIKNz049LeYAwc6Ya5KvzIYp0nE4Gy+hTHZ1qXnNcjyUwHqau4OoF7uA5tC2nNhaIBaxqyfMEXLvdwGN8bnH4tgqRE1DaEcPY/BPC2R+IjJPWB9XJClfx+4OiBxBOESB1SwnJtY8R8QPsYmEA0TxfOMA9L8fRyFwZS4Dzr2glxOvSS4SHznGjY91dgjGTqv5EU00qLZSpuh6qbySihfKK1V6hKlIla/oImJimydVOswkD5YP3qcPsYDadFkolUosvZKOJYmsWHWX4DJtc8yFpPv8igCoTGpUIfPlss7y6oxlPcdAaWSVPbAlvdllX5mLLrAujiRSKIJSjko+sMMXdmKHMxcDGE9YOecsFgNhmqWM8AWCkxpPrATeoKYZ2qmF8D5TEh4vI5q5uFsUJ4u8AOQL5Be7VgCPajlnNExW04ZUtfVSdaHFbhK8VoWq1n1QmN9Y8vHdhHsZGxGUKq6Xfk+uCUHpo2x+BmHuay0Po71/UHEoa9zfqzj8wpXgSrWWLueYA3it6Wy4qBln6l++prNei7o/aFG3sfoSpc9GsAoVWSXYA4qz17rpq66bnt1zfK2VxC8kXmsl6L2/eK0Ul05Q1qhKJ/5ti3SLPmYFZnTfKhv1p+iSufnR+Mf4ZLSdAi6tIqd9/vN2TMitCV3C7ze2o56jufi1x2m/ux0b+i2U0Fvjgjjh3N6O/wuaG1h0vcyPD8B3DdvbzpVhQcMVfmCSxF37CU36FzVcCrL+zBIYXCgVVxKzEdfEtQVfCWsLXiyqLYgpQW3BXRHTFuwVIW3B/kh8r7RIaTf3NfGeJsSjeG0WTnRLfE1avBGSyTW0I1mts33cpXg472HXvhW7e++uxreJU/edN9yHT/w0SC2RTy51O1NdIRY3D+VM+FkXawnp/wU="
     },
-    "C:\\Users\\kapi8\\source\\repos\\projektPK\\SymulatorUAR\\SymulatorUAR.vcxproj.filters": {
+    "C:\\Users\\krzysztof_dawid\\Documents\\GitHub\\projektPK\\SymulatorUAR\\SymulatorUAR.vcxproj.filters": {
       "before": "5Vhdb5swFO3zpEn7CSjvBAIkgUEyQQJdNm2rWlWbpkkTgZvgCDCzTZtq2k/bf5vz0ZiWSGWteOgWhQcsOOfee3x8bX6/Ojlx3qyzVLoCQhHOR51eV+1IkEc4Rvly1CnZQjY7b8YvXzhnBK8gYhJ/PKejTsJY8VpRaJRAFtJuhiKCKV6wboQzJYYrSHEBRMnovERprGiqqnc4jCQ5MwbZKcFlsb3lAwFKGRBplkdpGcOoE2CSSXwQ6O4Nif+cyxz9KGEWQ87QAgEZ/7Qs3bBM1ZL7fc+VjbkVy14wtGQzmHqeqpkD39N/OUrtxU0QW0h/zSDfpE3HJXKUyu3hkbOQUNiGMl6EKQVHqYzsnnKUXfz/RzankAMJGcQNBBr2/KnJ/7I78SzZmPiW7Hl+T/ZV1dPVnmH4vV5TgaKisCM7Wq/tDEd2YsewsHGc2ohfBKh9RL6HhPmHUnkLYcwd1MAzumX1dVOVTcubcs+ohmyavicPtH7g+X3N9wKvqSSJnXBREi5Jktko51rkkb2m8SOkeO7xX+CSRNCg/kYwGerDoCdPhm5fNvThQHbVwUDWXF2bDvuaqwVB0/oLS1TNkBQrex4yO6TZ5lo/Qo1nnI2j3O0u9WYzSSc4K3hzEf1mvxBg0uUlrbSc/bpeLcf9NUU5wN0u/4cBgf8e5wu0LEkYrcJ3F58+tkTzAceQuudfWoLn/Z+ym0v3vCX8c1iWacgwOZtNW6L4HBJG2XV4SdNyiVoi+QrLkFzcZDyZaNUWSRaivKX4N9DXKI/x9ZMJmrhxv+sTbhFuTOperDaKI17cgwkv1tBrXmyD5ODENsCFD9tAv+PCNgjuebANinsObINiRXHe5dufJ8/QkjKceZsjknBAxYF/HbvA25qgiQNr/TCGebn8xvfZ3yuRHG2N97bQRxy5BxeOrLERSCGk0BKfqIeor8ivIMD3TrSbdKM5q2v5YHoC/ZCgGBKE1RRboExrq1yJqtIdmUQPZnaL2XQWHUu7MntKVK+uOObX542AOxIAP4TvvkWM/wA=",
       "after": "5Zddb5swFIZ7PWn7DSj3DgRIAoOkggS6bOrWD0WbdkeNExyBzWzTppr23+d8LNCSaawVF92icIFl3nOOXx4fnL85OXFP11mq3CLGMSWjTq+rdRREII0xWY46hVgAq3M6fv3KvWB0haBQ5HTCR51EiPytqnKYoCzi3QxDRjldiC6kmRqjW5TSHDE14zcFTmNV1zSjI2UUxZ0JlJ0xWuTbWzkQ4lQgpswITIsYjTohZZkiBxHfPaHInzsn+FuBZjEiAi8wYuPvtm2YtqXZoN/3PWDe2DHww6ENrHDq+5puDQLf+OGqtQc3SWwlg7VAZFM2HxfYVSu3hykXEeNom8p4EaUcuWplZDfLVXf5/x/VnCGCWCRQ3MCgYS+YWvIPvIlvA3MS2MD3gx4INM03tJ5pBr1eU4NgnjvQgeu1k1HoJE6MFg6NUwfLiyHuHLHvT8b8Q6W8Q1EsCWrAjGHbfcPSgGX7U8mMZgLLCnww0PuhH/T1wA/9ppYkTiJNSaQlSeZgIr0g0Fnz+AlWvPT8r2nBIGqw/mY4GRrDsAcmQ68PTGM4AJ42GADdM/TpsK97ehg2Xf8SiSoMSb5ybiLhRDzbXOsnuPGCq3HVh92l3mwm6YRmuWwuZb/ZbwSUdeWSVlrOfl+vLsfjPUU9yP3a/g8Dpf4HShZ4WbAIrqL3158+thTmnMYo9a6+tCQv+z8X93PvqiX9K7Qs0khQdjGbthTic8QEF3fRnKfFErcU5CtaRuz6PpPFwFVbQbIIk5by30jfYRLTu2cHaELj/quvpKWkMamzWG0UR1jci5Us1tRrLLYR5EBiG+Ilh22oP6CwjQCPGGwjxCMC2wix4pR05efPc9/QS3FOYfnuV9j726y3StsX//fUKepuwsMeKQ9Xl2KOj6dR4HqJ5fmshuBW6EgW8ty0Oz6OfwI="
-    },
-    "C:\\Users\\kapi8\\source\\repos\\projektPK\\SymulatorUAR\\SymulatorUAR.vcxproj.user": {
-      "before": "tZE9a8MwEIbTtdD/IETAyVDL/aCUYiVDCl06JG3obstnW0XWGekUUsgf7r+o7OItYzvee8f7PHDfF7NZvj52hh3AeY1W8ps04wyswkrbRvJA9fUjX6+uLvOtw09QxPaIxn9M95vgHFjiLLZYL3lL1D8J4VULXeHTTiuHHmtKFXaiggMY7MGJzpdBm0rcZtkdj+2MDf1xQ18vDkPPxLnwtSjBSL6jdyCKfp6zDdpK06iezBdxqnUTXDEky9N8sTUF1ei6ZSJl8gxlaE7Hh/vkFxmhO9pjUO3EHqExFufyXExno+I/CL6BgcLDXyqO0sPfVj8=",
-      "after": "tZHNSsNAFIXrVvAdhqGQdmEm/iAimXRRwY2LVov7ZHKTjMzkhpk7pUJf1XdxEulGXOrynns454PzeTab5auDNWwPzmvsJb9KM86gV1jrvpU8UHN5z1fFxXm+cfgOitgO0fi3k38dnIOeOIspvZe8IxoehPCqA1v61Grl0GNDqUIratiDwQGcsL4K2tTiOstueExnbMyPH/p4chgGJn4Tn8sKjORbegWiyOc5W2Nfa5rQk/kiXo1ugytHZXmcLzampAadXSZSJo9QhfZ4uLtNvitj6ZZ2GFR36i5y8VOZ2MTJMMH9A9oLGCg9/A1cPuKOWxVf"
     }
   }
 }]]></FlowDocument.Tag>
@@ -25,7 +21,7 @@
       <Span TextDecorations="Underline">Project Format Conversion</Span>
     </Paragraph>
     <Paragraph Margin="12,8" FontSize="18">
-      <Span>Report generated on 2026-11-22 02:15:17</Span>
+      <Span>Report generated on 2026-11-22 21:26:14</Span>
     </Paragraph>
   </Section>
   <Section>
@@ -33,49 +29,33 @@
       <Span>Files</Span>
     </Paragraph>
     <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
       <LineBreak />
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?diff&amp;before&amp;after">
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?diff&amp;before&amp;after">
                         [Diff before/after]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?diff&amp;before&amp;current">
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?diff&amp;before&amp;current">
                         [Diff before/current]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?diff&amp;after&amp;current">
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj?diff&amp;after&amp;current">
                         [Diff after/current]
                     </Hyperlink>
       <LineBreak />
     </Paragraph>
     <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters]]></Span>
+      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters]]></Span>
       <LineBreak />
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?diff&amp;before&amp;after">
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?before">[Before]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?after">[After]</Hyperlink>
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?diff&amp;before&amp;after">
                         [Diff before/after]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?diff&amp;before&amp;current">
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?diff&amp;before&amp;current">
                         [Diff before/current]
                     </Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?diff&amp;after&amp;current">
-                        [Diff after/current]
-                    </Hyperlink>
-      <LineBreak />
-    </Paragraph>
-    <Paragraph Margin="24,12,0,0">
-      <Span FontFamily="Consolas" FontSize="14" Background="WhiteSmoke"><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.user]]></Span>
-      <LineBreak />
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.user?before">[Before]</Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.user?after">[After]</Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.user?diff&amp;before&amp;after">
-                        [Diff before/after]
-                    </Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.user?diff&amp;before&amp;current">
-                        [Diff before/current]
-                    </Hyperlink>
-      <Hyperlink NavigateUri="file://C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.user?diff&amp;after&amp;current">
+      <Hyperlink NavigateUri="file://C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters?diff&amp;after&amp;current">
                         [Diff after/current]
                     </Hyperlink>
       <LineBreak />
@@ -97,7 +77,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -122,12 +102,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\lib\Qt6Widgets.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\lib\Qt6Gui.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6Core]]></Span><Span><![CDATA[.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6.12.0\msvc2022_64\lib\Qt6Widgets]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6Gui]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6Core]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6EntryPoint]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalDependencies>$(QTDIR)\lib\Qt6Widgets]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Gui]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Core]]></Span><Span><![CDATA[.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalDependencies>$(QTDIR)\lib\Qt6Widgets]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Gui]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Core]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6EntryPoint]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -152,12 +132,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\lib\Qt6Widgetsd.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\lib\Qt6Guid.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6Cored]]></Span><Span><![CDATA[.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>C:\Qt\6.12.0\msvc2022_64\lib\Qt6Widgetsd]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6Guid]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6Cored]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightCoral"><![CDATA[C:\Qt\6.12.0\msvc2022_64\lib\Qt6EntryPointd]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalDependencies>$(QTDIR)\lib\Qt6Widgetsd]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Guid]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Cored]]></Span><Span><![CDATA[.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalDependencies>$(QTDIR)\lib\Qt6Widgetsd]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Guid]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6Cored]]></Span><Span><![CDATA[.lib;]]></Span><Span Background="LightGreen"><![CDATA[$(QTDIR)\lib\Qt6EntryPointd]]></Span><Span><![CDATA[.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -179,12 +159,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/kapi8/source/repos/projektPK/SymulatorUAR/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/kapi8/source/repos/projektPK/SymulatorUAR ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Release|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR/release/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/kapi8/source/repos/projektPK/SymulatorUAR/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/kapi8/source/repos/projektPK/SymulatorUAR ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Release|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR/release/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -206,12 +186,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/kapi8/source/repos/projektPK/SymulatorUAR/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/kapi8/source/repos/projektPK/SymulatorUAR ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightCoral"><![CDATA['=='Debug|x64'">C:\Qt\6]]></Span><Span><![CDATA[.]]></Span><Span Background="LightCoral"><![CDATA[12.0\msvc2022_64\bin\moc.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR/debug/moc_predefs.h ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightCoral"><![CDATA[-IC:/Qt/6.12.0/msvc2022_64/include/QtCore]]></Span><Span><![CDATA[ -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/kapi8/source/repos/projektPK/SymulatorUAR/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/kapi8/source/repos/projektPK/SymulatorUAR ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)]]></Span><Span Background="LightGreen"><![CDATA['=='Debug|x64'">$(QTDIR)\bin\moc]]></Span><Span><![CDATA[.]]></Span><Span><![CDATA[exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include C:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR/debug/moc_predefs.h ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ -IC:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtWidgets]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtGui]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I$(QTDIR)/include/QtCore]]></Span><Span><![CDATA[ -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -337,7 +317,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -347,12 +327,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/kapi8/source/repos/projektPK/SymulatorUAR/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/kapi8/source/repos/projektPK/SymulatorUAR]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR/release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./release/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -362,12 +342,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/kapi8/source/repos/projektPK/SymulatorUAR/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/kapi8/source/repos/projektPK/SymulatorUAR]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightCoral"><![CDATA[ C:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR/debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span Background="LightCoral"><![CDATA[ -IC:/Users/krzysztof_dawid/Documents/GitHub/projektPK/SymulatorUAR]]></Span><Span><![CDATA[ ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include]]></Span><Span Background="LightGreen"><![CDATA[ ./debug/moc_predefs]]></Span><Span><![CDATA[.h -I$(QTDIR)/mkspecs/win32-msvc]]></Span><Span><![CDATA[ ]]></Span><Span Background="LightGreen"><![CDATA[-I. ]]></Span><Span><![CDATA[-I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -385,7 +365,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -576,7 +556,7 @@
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightGreen"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+              <Span Background="LightGreen"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include;D:\Visual Studio\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt</IncludePath>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -764,7 +744,7 @@
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightGreen"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+              <Span Background="LightGreen"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include;D:\Visual Studio\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt</IncludePath>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -916,7 +896,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DNDEBUG -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./release/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o release\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -956,7 +936,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" -I"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe  -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB --compiler-flavor=msvc --include ./debug/moc_predefs.h -I$(QTDIR)/mkspecs/win32-msvc -I. -I$(QTDIR)/include -I$(QTDIR)/include/QtWidgets -I$(QTDIR)/include/QtGui -I$(QTDIR)/include/QtCore -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include" -I"D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include" -I"D:\Visual Studio\VC\Auxiliary\VS\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" -I"C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" mainwindow.h -o debug\moc_mainwindow.cpp</Command>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -1382,7 +1362,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj.filters]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1643,7 +1623,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1687,7 +1667,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1720,7 +1700,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1751,7 +1731,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1782,7 +1762,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1823,7 +1803,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1874,7 +1854,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1918,7 +1898,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -1949,7 +1929,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2034,7 +2014,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2044,12 +2024,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2059,12 +2039,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2082,7 +2062,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2130,7 +2110,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2140,12 +2120,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>$(QTDIR)\lib\Qt6Widgets.lib;$(QTDIR)\lib\Qt6Gui.lib;$(QTDIR)\lib\Qt6Core.lib;%]]></Span><Span><![CDATA[(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      <AdditionalDependencies>$(QTDIR)]]></Span><Span Background="LightCoral"><![CDATA[\lib\Qt6Widgets.lib;$(QTDIR)\lib\Qt6Gui.lib;$(QTDIR)\lib\Qt6Core.lib;$(QTDIR)]]></Span><Span><![CDATA[\lib\Qt6EntryPoint.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalDependencies>%]]></Span><Span><![CDATA[(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      <AdditionalDependencies>$(QTDIR)]]></Span><Span><![CDATA[\lib\Qt6EntryPoint.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2155,12 +2135,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightCoral"><![CDATA[<AdditionalDependencies>$(QTDIR)\lib\Qt6Widgetsd.lib;$(QTDIR)\lib\Qt6Guid.lib;$(QTDIR)\lib\Qt6Cored.lib;%]]></Span><Span><![CDATA[(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      <AdditionalDependencies>$(QTDIR)]]></Span><Span Background="LightCoral"><![CDATA[\lib\Qt6Widgetsd.lib;$(QTDIR)\lib\Qt6Guid.lib;$(QTDIR)\lib\Qt6Cored.lib;$(QTDIR)]]></Span><Span><![CDATA[\lib\Qt6EntryPointd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      ]]></Span><Span Background="LightGreen"><![CDATA[<AdditionalDependencies>%]]></Span><Span><![CDATA[(AdditionalDependencies)</AdditionalDependencies>]]></Span>
+              <Span><![CDATA[      <AdditionalDependencies>$(QTDIR)]]></Span><Span><![CDATA[\lib\Qt6EntryPointd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2178,7 +2158,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2226,7 +2206,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2236,12 +2216,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;NDEBUG;QT_NO_DEBUG;]]></Span><Span><![CDATA[%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2251,12 +2231,12 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span Background="LightCoral"><![CDATA[QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span><![CDATA[      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
+              <Span><![CDATA[      <PreprocessorDefinitions>_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;]]></Span><Span><![CDATA[_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2274,7 +2254,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2318,7 +2298,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2428,7 +2408,7 @@
         <TableRow Background="Orange">
           <TableCell ColumnSpan="2" BorderThickness="0.5" BorderBrush="Gray">
             <Paragraph Margin="10,5" FontWeight="Bold">
-              <Span><![CDATA[C:\Users\kapi8\source\repos\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
+              <Span><![CDATA[C:\Users\krzysztof_dawid\Documents\GitHub\projektPK\SymulatorUAR\SymulatorUAR.vcxproj]]></Span>
             </Paragraph>
           </TableCell>
         </TableRow>
@@ -2468,7 +2448,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include;D:\Visual Studio\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt</IncludePath>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2554,7 +2534,7 @@
         <TableRow>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
             <Paragraph FontFamily="Consolas" Margin="4, 0">
-              <Span Background="LightCoral"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um</IncludePath>]]></Span>
+              <Span Background="LightCoral"><![CDATA[      <IncludePath>GeneratedFiles\$(ConfigurationName);GeneratedFiles;$(QTDIR)/mkspecs/win32-msvc;.;$(QTDIR)/include;$(QTDIR)/include/QtWidgets;$(QTDIR)/include/QtGui;$(QTDIR)/include/QtCore;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\include;D:\Visual Studio\VC\Tools\MSVC\14.44.35207\ATLMFC\include;D:\Visual Studio\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt</IncludePath>]]></Span>
             </Paragraph>
           </TableCell>
           <TableCell BorderThickness="0, 0, 0.5, 0" BorderBrush="Gray">
@@ -2611,4 +2591,4 @@
     <Paragraph />
   </Section>
 </FlowDocument>
-<!--65+AjI8oYOPN8jQekGqMyNAvNT8yaideCwwIn3b4rM0=-->
+<!--2Jdboo6nXFFnYuUPvZQlqGGbP+M9sbwrKVpcN3MKVjE=-->
