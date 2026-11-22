@@ -84,10 +84,6 @@ public:
 		double stala, double wypelnienie);
 
 	void reset_UAR() { m_prostyUAR.reset(); };
-	
-	
-
-
 
 };
 
