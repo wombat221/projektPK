@@ -1,26 +1,12 @@
+.vs/
 build/
-build-*/
 x64/
 x86/
-Win32/
 Debug/
 Release/
-Makefile*
-.qmake.stash
-moc_*.cpp
-moc_*.h
-ui_*.h
-qrc_*.cpp
-*.obj
-*.o
-*.exe
-*.pdb
-*.ilk
-*.pro.user*
-*.autosave
-vs/
 *.sln
 *.vcxproj
+<<<<<<< HEAD
 *.vcxproj.*
 *.qtvscr
 *.user
@@ -48,3 +34,14 @@ SymulatorUAR/.vs/SymulatorUAR/v17/ipch/AutoPCH/9b2a297b5e8d6fdc/PROSTYUAR.ipch
 SymulatorUAR/.vs/SymulatorUAR/v17/ipch/AutoPCH/ad2c300c917c701/REGULATORPID.ipch
 SymulatorUAR/.vs/SymulatorUAR/v17/ipch/AutoPCH/dba2048943656743/MODELARX.ipch
 SymulatorUAR/.vs/SymulatorUAR/v17/ipch/AutoPCH/e1d4e41bbb283a6/WARTSTWAUSLUGI.ipch
+=======
+*.vcxproj.filters
+*.vcxproj.user
+*.pro.user
+*.ipch
+*.db
+*.db-shm
+*.db-wal
+*.vsidx
+Makefile*
+>>>>>>> 9cd23a40bced12663520688792a73240fde328e9
