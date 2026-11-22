@@ -10,7 +10,7 @@
 #include "RegulatorPID.h"
 #include "ProstyUAR.h"
 #include "Generator.h"
-
+#include "Uslugi.h"
 
 #define DEBUG // ustaw na MAIN aby skompilować program docelowy / ustaw na DEBUG aby skompilować program testujacy
 
@@ -599,7 +599,12 @@ int main()
 	TESTY_RegulatorPID::wykonaj_testy();
 	TESTY_ProstyUAR::wykonaj_testy();
 	
-
+	Uslugi uslugi;
+	uslugi.setWspolczynnikiA_ARX({ 0.3,0.4,0.8 });
+	std::vector<double> tab = uslugi.getWspolczynnikiA_ARX();
+	for (double a : tab) {
+		std::cout << a << std::endl;
+	}
 }
 #endif
 

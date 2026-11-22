@@ -31,7 +31,7 @@ private:
 	double Zaklocenie();
 public:
 	ModelARX() = default;
-	ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie = 1, double odchylenie = 0.0);
+	ModelARX(std::vector<double> a,std::vector<double> b, int opoznienie = 1, double odchylenie = 0.0);
 
 	void setUmin(double uMin);
 	void setUmax(double uMax);
@@ -43,8 +43,8 @@ public:
 	void setCzyOgraniczenieY(bool OgraniczenieY);
 	void setOpoznienie(int opoznienie);
 	void setZaklocenia(double zaklocenia);
-	void setWspolczynnikiA(std::vector<double>& a);
-	void setWspolczynnikiB(std::vector<double>& b);
+	void setWspolczynnikiA(std::vector<double> a);
+	void setWspolczynnikiB(std::vector<double> b);
 
 
 	double getUmin() const { return m_uMin; };

@@ -1,6 +1,6 @@
 #include "ModelARX.h"
 
-ModelARX::ModelARX(std::vector<double> a, std::vector<double> b, int opoznienie, double odchylenie)  {
+ModelARX::ModelARX(std::vector<double> a,std::vector<double> b, int opoznienie, double odchylenie)  {
     setWspolczynnikiA(a);
     setWspolczynnikiB(b);
     setOpoznienie(opoznienie);
@@ -99,7 +99,7 @@ void ModelARX::setZaklocenia(double zaklocenia) {
     m_zaklocenia = std::clamp(zaklocenia, 0.0, 0.1);
 }
 
-void ModelARX::setWspolczynnikiA(std::vector<double>& a) {
+void ModelARX::setWspolczynnikiA(std::vector<double> a){
     if (a.empty())
         return;
     if (a == m_WspolczynnikiA)
@@ -110,7 +110,7 @@ void ModelARX::setWspolczynnikiA(std::vector<double>& a) {
     m_WspolczynnikiA = std::move(a);
     m_buforWejscia.resize(m_WspolczynnikiA.size(), 0.0);
 }
-void ModelARX::setWspolczynnikiB(std::vector<double>& b) {
+void ModelARX::setWspolczynnikiB(std::vector<double> b) {
     if (b.empty())
         return;
     if (b == m_WspolczynnikiB)

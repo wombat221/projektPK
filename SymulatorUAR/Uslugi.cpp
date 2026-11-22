@@ -22,9 +22,9 @@ void Uslugi::setInterwal_Zegar(int interwalMs) {
 	setOkres_Generator();
 }
 
-void Uslugi::ustawGenerator(Generator::TypGeneratora typ, double amplituda,
+void Uslugi::ustawGenerator_UAR(Generator::TypGeneratora typ, double amplituda,
 							double okresS, int interwalMs, 
-							double stala,double wypelnienie) 
+							double stala,double wypelnienie = 0.5) 
 {
 	setOkres_Generator(okresS, interwalMs);
 

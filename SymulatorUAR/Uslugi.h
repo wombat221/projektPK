@@ -24,14 +24,14 @@ public:
 	void setCzyOgraniczenieY_ARX(bool OgraniczenieY) { m_prostyUAR.getModelARX().setCzyOgraniczenieY(OgraniczenieY); }
 	void setOpoznienie_ARX(int opoznienie) { m_prostyUAR.getModelARX().setOpoznienie(opoznienie); }
 	void setZaklocenia_ARX(double zaklocenia) { m_prostyUAR.getModelARX().setZaklocenia(zaklocenia); }
-	void setWspolczynnikiA_ARX(std::vector<double>& a) { m_prostyUAR.getModelARX().setWspolczynnikiA(a); }
-	void setWspolczynnikiB_ARX(std::vector<double>& b) { m_prostyUAR.getModelARX().setWspolczynnikiB(b); }
+	void setWspolczynnikiA_ARX(std::vector<double> a) { m_prostyUAR.getModelARX().setWspolczynnikiA(a); }
+	void setWspolczynnikiB_ARX(std::vector<double> b) { m_prostyUAR.getModelARX().setWspolczynnikiB(b); }
 
 	double getUmin_ARX() const { return m_prostyUAR.getModelARX().getUmin(); }
 	double getUmax_ARX() const { return m_prostyUAR.getModelARX().getUmax(); }
 	double getYmin_ARX() const { return m_prostyUAR.getModelARX().getYmax(); }
 	double getYmax_ARX() const { return m_prostyUAR.getModelARX().getYmin(); }
-	bool getczyOrganczenieY_ARX() const { return m_prostyUAR.getModelARX().getUmax(); }
+	bool getczyOrganczenieY_ARX() const { return m_prostyUAR.getModelARX().czyOgraniczenieY(); }
 	bool getCzyOgraniczenieU_ARX() const { return m_prostyUAR.getModelARX().czyOgraniczenieU(); }
 	int getOpoznienie_ARX() const { return m_prostyUAR.getModelARX().getOpoznienie(); }
 	double getZaklocenia_ARX() const { return m_prostyUAR.getModelARX().getZaklocenia(); }
@@ -44,32 +44,38 @@ public:
 	void setwzmocnienieK_PID(double k) { m_prostyUAR.getRegulator().setwzmocnienieK(k); }
 	void setstalaCalkiTi_PID(double Ti) { m_prostyUAR.getRegulator().setstalaCalkiTi(Ti); }
 	void setstalaRoznD_PID(double d) { m_prostyUAR.getRegulator().setstalaRoznD(d); }
-	void setTypCalkowania(RegulatorPID::TypCalkowania typ) { m_prostyUAR.getRegulator().setTypCalkowania(typ); }
+	void setTypCalkowania_PID(RegulatorPID::TypCalkowania typ) { m_prostyUAR.getRegulator().setTypCalkowania(typ); }
 
-	double getwzmocnienieK() const { return m_prostyUAR.getRegulator().getwzmocnienieK(); };
-	double getstalaCalkiTi() const { return m_prostyUAR.getRegulator().getstalaCalkiTi(); };
-	double getstalaRoznD() const { return m_prostyUAR.getRegulator().getstalaRoznD(); };
+	double getwzmocnienieK_PID() const { return m_prostyUAR.getRegulator().getwzmocnienieK(); };
+	double getstalaCalkiTi_PID() const { return m_prostyUAR.getRegulator().getstalaCalkiTi(); };
+	double getstalaRoznD_PID() const { return m_prostyUAR.getRegulator().getstalaRoznD(); };
 	RegulatorPID::TypCalkowania getTypCalkowania() const { return m_prostyUAR.getRegulator().getTypCalkowania(); };
 
-	double getProporcjonalnaP() const { return m_prostyUAR.getRegulator().getProporcjonalnaP(); };
-	double getCalkujacaI() const { return m_prostyUAR.getRegulator().getCalkujacaI(); };
-	double getRozniczkujacaD() const { return m_prostyUAR.getRegulator().getRozniczkujacaD(); };
-	double getSumaSkladowychU() const { return m_prostyUAR.getRegulator().getSumaSkladowychU(); };
+	double getProporcjonalnaP_PID() const { return m_prostyUAR.getRegulator().getProporcjonalnaP(); };
+	double getCalkujacaI_PID() const { return m_prostyUAR.getRegulator().getCalkujacaI(); };
+	double getRozniczkujacaD_PID() const { return m_prostyUAR.getRegulator().getRozniczkujacaD(); };
+	double getSumaSkladowychU_PID() const { return m_prostyUAR.getRegulator().getSumaSkladowychU(); };
 
-	void ustawGenerator(Generator::TypGeneratora typ, double amplituda,
+
+
+	void ustawGenerator_UAR(Generator::TypGeneratora typ, double amplituda,
 		double okresS, int interwalMs,
 		double stala, double wypelnienie);
-
+	void reset_UAR() { m_prostyUAR.reset(); };
 
 
 
 	void setOkres_Generator(double okresS,int interwalMs);
+	
 	void setOkres_Zegar(double okresS);
 	void setInterwal_Zegar(int interwalMs);
 	void setOknoSymulacji_Zegar(double oknoSymulacji) { m_zegar.setOknoSymulacji(oknoSymulacji); }
-
+	
+	
 	
 
 
 
 };
+
+
