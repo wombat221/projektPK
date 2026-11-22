@@ -1,13 +1,12 @@
 #pragma once
 #include "ProstyUAR.h"
+#include "ZegarSymulacji.h"
 
 class Uslugi {
 private:
 	ProstyUAR  m_prostyUAR;
-
-	double okres = 10.0;
-	double interwal = 50.0;
-	double oknoSymulacji = 10.0;
+	ZegarSymulacji m_zegar;
+	
 public:
 	Uslugi() = default;
 

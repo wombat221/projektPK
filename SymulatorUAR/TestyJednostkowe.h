@@ -10,4 +10,28 @@ private:
 public:
 	TestyUAR() = delete;
 	
+	
+	
+	static void TESTY_ModelARX() {
+
+	}
+
+	static void TESTY_RegulatorPID() {
+
+	}
+
+	static void TESTY_ProstyUAR() {
+
+	}
+
+	static void TESTY_Generator() {
+
+	}
+	
+	
+	
+	static void TESTY_WszysztkieTesty(){
+	
+	}
+
 };
