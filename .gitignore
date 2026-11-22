@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .vs/
 build/
 x64/
@@ -45,3 +46,6 @@ SymulatorUAR/.vs/SymulatorUAR/v17/ipch/AutoPCH/e1d4e41bbb283a6/WARTSTWAUSLUGI.ip
 *.vsidx
 Makefile*
 >>>>>>> 9cd23a40bced12663520688792a73240fde328e9
+=======
+
+>>>>>>> 0d70143b88c90e7b7d5d4ec1d3b608f3b81e2d7f
