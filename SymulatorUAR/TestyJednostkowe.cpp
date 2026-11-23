@@ -532,7 +532,7 @@ void WszystkieTesty::test_Generator_2_GeneratorSinusoidalny()
 	}
 }
 
-void WszystkieTesty::test_Generator_3_PrzelaczenietypuGeneratora()
+void WszystkieTesty::test_UAR_3_PrzelaczenietypuGeneratora()
 {
 	const std::string sygnatura = "ProstyUAR -> przelaczenie generatora w 15 kroku ";
 	try
@@ -742,7 +742,7 @@ void WszystkieTesty::test_UAR_10_reset()
 void WszystkieTesty::uruchomWszystkieNasze() {
 	test_Generator_1_GeneratorProstokatny();
 	test_Generator_2_GeneratorSinusoidalny();
-	test_Generator_3_PrzelaczenietypuGeneratora();
+	test_UAR_3_PrzelaczenietypuGeneratora();
 	test_generator_4_Reset();
 	test_ARX_5_nasycenieU();
 	test_ARX_6_resetBuforow();
@@ -784,7 +784,7 @@ void WszystkieTesty::uruchomWszystkie()
 
 	test_Generator_1_GeneratorProstokatny();
 	test_Generator_2_GeneratorSinusoidalny();
-	test_Generator_3_PrzelaczenietypuGeneratora();
+	test_UAR_3_PrzelaczenietypuGeneratora();
 	test_generator_4_Reset();
 	test_ARX_5_nasycenieU();
 	test_ARX_6_resetBuforow();

@@ -31,7 +31,7 @@ private:
 	
 	static void test_Generator_1_GeneratorProstokatny();
 	static void test_Generator_2_GeneratorSinusoidalny();
-	static void test_Generator_3_PrzelaczenietypuGeneratora();
+	static void test_UAR_3_PrzelaczenietypuGeneratora();
 	static void test_generator_4_Reset();
 	static void test_ARX_5_nasycenieU();
 	static void test_ARX_6_resetBuforow();
