@@ -589,6 +589,154 @@ void WszystkieTesty::test_generator_4_Reset()
 	}
 }
 
+void WszystkieTesty::test_ARX_5_nasycenieU()
+{
+	const std::string sygnatura = "ModelARX -> test nasycenia sygnalu wejsciowego U"; 
+	try {
+		ModelARX test({ -0.4 }, { 0.6 }, 1, 0.0); 
+		test.setOgraniczeniaU(-5.0, 5.0);
+		test.setCzyOgraniczenieU(true);
+		
+		constexpr size_t LICZ_ITER = 5; 
+		std::vector<double> sygWe = { 0.0, 10.0, 10.0, 10.0, 10.0 };
+
+		std::vector<double> spodzSygWy = { 0.0, 0.0, 3.0, 4.2, 4.68 };
+		std::vector<double> faktSygWy(LICZ_ITER);
+
+		for (size_t i = 0; i < LICZ_ITER; i++)
+			faktSygWy[i] = test.symuluj(sygWe[i]);
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...) {
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
+
+void WszystkieTesty::test_ARX_6_resetBuforow()
+{
+	const std::string sygnatura = "ModelARX -> test resetowania buforow";
+	try {
+		ModelARX test({ -0.4 }, { 0.6 }, 1, 0.0);
+		test.symuluj(0.0);
+		test.symuluj(1.0);
+		test.symuluj(1.0);
+		test.symuluj(1.0);
+
+		test.reset();
+
+		std::vector<double> spodzSygWy = {0.0, 0.0};
+		std::vector<double> faktSygWy(2);
+
+		faktSygWy[0] = test.symuluj(0.0);
+		faktSygWy[1] = test.symuluj(0.0);
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...) {
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
+
+void WszystkieTesty::test_PID_7_resetPamieciCalki()
+{
+	const std::string sygnatura = "RegulatorPID -> test resetu pamieci calki";
+	try {
+		RegulatorPID test(1.0, 2.0, 0.0);
+
+		std::vector<double> faktSygWy(6);
+		faktSygWy[0] = test.symuluj(0.0);
+		faktSygWy[1] = test.symuluj(1.0); 
+		faktSygWy[2] = test.symuluj(1.0); 
+		faktSygWy[3] = test.symuluj(1.0);
+
+		test.resetPamiecCalki();
+
+		faktSygWy[4] = test.symuluj(1.0);
+		faktSygWy[5] = test.symuluj(1.0);
+
+		std::vector<double> spodzSygWy = { 0.0, 1.5, 2.0, 2.5, 1.5, 2.0 };
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...) {
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
+
+void WszystkieTesty::test_PID_8_wylaczenieCalki()
+{
+	const std::string sygnatura = "RegulatorPID -> wylaczenie calki";
+	try {
+		RegulatorPID test(1.0, 0.0, 0.0);
+		std::vector<double> sygWe = { 0.0, 1.0, 1.0, 1.0 };
+		std::vector<double> spodzSygWy = { 0.0, 1.0, 1.0, 1.0 };
+		std::vector<double> faktSygWy(4);
+
+		for (size_t i = 0; i < 4; i++)
+			faktSygWy[i] = test.symuluj(sygWe[i]);
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...) {
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
+
+void WszystkieTesty::test_UAR_9_SkokIPowrot()
+{
+	const std::string sygnatura = "ProstyUAR -> skok i powrot wartosci zadanej";
+	try {
+		RegulatorPID testPID(0.5, 0.0, 0.0);
+		ModelARX testARX({ -0.4 }, { 0.6 }, 1, 0.0);
+		ProstyUAR test(testARX, testPID);
+
+		std::vector<double> sygWe = { 0.0, 1.0, 1.0, 0.0, 0.0 };
+		std::vector<double> spodzSygWy = { 0.0, 0.0, 0.3, 0.42, 0.078 };
+		std::vector<double> faktSygWy(5);
+
+		for (size_t i = 0; i < 5; i++)
+			faktSygWy[i] = test.symuluj(sygWe[i]);
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...) {
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
+
+void WszystkieTesty::test_UAR_10_reset()
+{
+	const std::string sygnatura = "ProstyUAR -> test resetu symulacji";
+	try {
+		RegulatorPID testPID(0.5, 0.0, 0.0);
+		ModelARX testARX({ -0.4 }, { 0.6 }, 1, 0.0);
+		auto testGenerator = std::make_unique<GeneratorProstokatny>();
+		ProstyUAR test(testARX, testPID, std::move(testGenerator));
+
+		test.symuluj(0.0);
+		test.symuluj(1.0);
+		test.symuluj(1.0);
+
+		test.reset();
+
+		std::vector<double> spodzSygWy = { 0.0, 0.0 };
+		std::vector<double> faktSygWy(2);
+
+		faktSygWy[0] = test.symuluj(0.0);
+		faktSygWy[1] = test.symuluj(0.0);
+
+		myAssert(spodzSygWy, faktSygWy, sygnatura);
+	}
+	catch (...) {
+		s_liczbaTestow++;
+		std::cerr << "[FAIL] " << sygnatura << " -> INTERUPTED!\n";
+	}
+}
 
 
 void WszystkieTesty::uruchomWszystkieNasze() {
@@ -596,7 +744,12 @@ void WszystkieTesty::uruchomWszystkieNasze() {
 	test_Generator_2_GeneratorSinusoidalny();
 	test_Generator_3_PrzelaczenietypuGeneratora();
 	test_generator_4_Reset();
-
+	test_ARX_5_nasycenieU();
+	test_ARX_6_resetBuforow();
+	test_PID_7_resetPamieciCalki();
+	test_PID_8_wylaczenieCalki();
+	test_UAR_9_SkokIPowrot();
+	test_UAR_10_reset();
 
 
 	std::cout << "Testy zakonczone powodzeniem: "
@@ -632,9 +785,13 @@ void WszystkieTesty::uruchomWszystkie()
 	test_Generator_1_GeneratorProstokatny();
 	test_Generator_2_GeneratorSinusoidalny();
 	test_Generator_3_PrzelaczenietypuGeneratora();
-
-
-
+	test_generator_4_Reset();
+	test_ARX_5_nasycenieU();
+	test_ARX_6_resetBuforow();
+	test_PID_7_resetPamieciCalki();
+	test_PID_8_wylaczenieCalki();
+	test_UAR_9_SkokIPowrot();
+	test_UAR_10_reset();
 
 	std::cout << "Testy zakonczone powodzeniem: "
 		<< s_poprawneTesty << "/" << s_liczbaTestow << "\n";

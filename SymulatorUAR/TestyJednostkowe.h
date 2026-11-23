@@ -16,7 +16,6 @@ private:
 	static void test_skokJednostkowy_1();
 	static void test_skokJednostkowy_2();
 	static void test_skokJednostkowy_3();
-
 	
 	static void test_P_brakPobudzenia();
 	static void test_P_skokJednostkowy();
@@ -24,7 +23,6 @@ private:
 	static void test_PI_skokJednostkowy_2();
 	static void test_PID_skokJednostkowy();
 	static void test_PI_skokJednostkowy_3();
-
 	
 	static void test_UAR_1_brakPobudzenia();
 	static void test_UAR_1_skokJednostkowyPID();
@@ -35,6 +33,12 @@ private:
 	static void test_Generator_2_GeneratorSinusoidalny();
 	static void test_Generator_3_PrzelaczenietypuGeneratora();
 	static void test_generator_4_Reset();
+	static void test_ARX_5_nasycenieU();
+	static void test_ARX_6_resetBuforow();
+	static void test_PID_7_resetPamieciCalki();
+	static void test_PID_8_wylaczenieCalki();
+	static void test_UAR_9_SkokIPowrot();
+	static void test_UAR_10_reset();
 
 	static void sprawdz(bool wynik, const std::string& sygnatura, const std::string& opis = "");
 

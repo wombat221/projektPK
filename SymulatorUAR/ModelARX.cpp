@@ -1,4 +1,5 @@
 #include "ModelARX.h"
+#include <algorithm>
 
 ModelARX::ModelARX(std::vector<double> a,std::vector<double> b, int opoznienie, double odchylenie)  {
     setOpoznienie(opoznienie);

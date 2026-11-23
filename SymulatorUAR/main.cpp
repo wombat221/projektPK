@@ -20,7 +20,8 @@
 
 int main()
 {
-	WszystkieTesty::uruchomWszystkieNasze();
+	//WszystkieTesty::uruchomWszystkieNasze();
+	WszystkieTesty::uruchomWszystkie();
 }
 #endif
 
