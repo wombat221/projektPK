@@ -534,7 +534,7 @@ void WszystkieTesty::test_Generator_2_GeneratorSinusoidalny()
 
 void WszystkieTesty::test_Generator_3_PrzelaczenietypuGeneratora()
 {
-	const std::string sygnatura = "ProstyUAR -> przelaczenie generatora w 15 kroku (z zachowaniem kroku)";
+	const std::string sygnatura = "ProstyUAR -> przelaczenie generatora w 15 kroku ";
 	try
 	{
 		ProstyUAR instancjaTestowa;
