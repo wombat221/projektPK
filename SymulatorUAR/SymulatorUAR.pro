@@ -1,6 +1,6 @@
 QT += widgets
 
-CONFIG += c++17
+CONFIG += c++17 console
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
@@ -12,8 +12,8 @@ SOURCES += \
     ModelARX.cpp \
     ProstyUAR.cpp \
     RegulatorPID.cpp \
+    TestyJednostkowe.cpp \
     Uslugi.cpp \
-    WartstwaUslugi.cpp \
     ZegarSymulacji.cpp \
     main.cpp \
     mainwindow.cpp
@@ -24,7 +24,8 @@ HEADERS += \
     ModelARX.h \
     ProstyUAR.h \
     RegulatorPID.h \
-    WartstwaUslugi.h \
+    TestyJednostkowe.h \
+    Uslugi.h \
     ZegarSymulacji.h \
     json.hpp \
     mainwindow.h

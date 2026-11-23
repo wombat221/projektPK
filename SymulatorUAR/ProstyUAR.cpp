@@ -1,4 +1,5 @@
 #include "ProstyUAR.h"
+#include <stdexcept>
 
 double ProstyUAR::symuluj(double SygWe) {
 	double uchyb = SygWe - m_modelARX.getOstatnieWyjscie();
